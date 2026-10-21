@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or methodology, please cite it as below."
+title: "How evaluation-protocol errors inflate sustainability forecasting performance: a multi-domain leakage audit mapped to SDGs 3, 7, 11 and 13"
+authors:
+  - family-names: "Ukhalkar"
+    given-names: "Prakash"
+    orcid: "https://orcid.org/0000-0002-0452-6574"
+version: 0.1.0
+date-released: "2026-10-19"
+license: MIT
+repository-code: "https://github.com/prakash-ukhalkar/forecast-leakage-audit"
