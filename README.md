@@ -1,4 +1,12 @@
-# sdg-leakage-audit
+# forecast-leakage-audit
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/prakash-ukhalkar/forecast-leakage-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/prakash-ukhalkar/forecast-leakage-audit/actions/workflows/ci.yml)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+[![Last Commit](https://img.shields.io/github/last-commit/prakash-ukhalkar/forecast-leakage-audit)](https://github.com/prakash-ukhalkar/forecast-leakage-audit/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/prakash-ukhalkar/forecast-leakage-audit)](https://github.com/prakash-ukhalkar/forecast-leakage-audit)
+[![Issues](https://img.shields.io/github/issues/prakash-ukhalkar/forecast-leakage-audit)](https://github.com/prakash-ukhalkar/forecast-leakage-audit/issues)
+[![Author](https://img.shields.io/badge/author-prakash--ukhalkar-181717?logo=github)](https://github.com/prakash-ukhalkar)
 
 **How evaluation-protocol errors inflate sustainability forecasting performance:
 a multi-domain leakage audit mapped to SDGs 3, 7, 11 and 13.**
@@ -108,9 +116,8 @@ committed so provenance/checksums are visible without re-downloading anything.
 
 ## Citation
 
-See `CITATION.cff`. **Note:** author name/ORCID in `CITATION.cff` and the
-copyright holder in `LICENSE` are placeholders (`TBD`) -- the repository owner
-should fill these in before any public release.
+See `CITATION.cff` for structured citation metadata (BibTeX/APA export available
+via GitHub's "Cite this repository" button).
 
 ## Licence
 
