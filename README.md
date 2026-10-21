@@ -27,7 +27,7 @@ or paid services required.
 | SDG 3 / SDG 11 (Good Health & Well-Being / Sustainable Cities) | Air Quality (UCI 360); Beijing Multi-Site Air-Quality (UCI 501) | CO/PM2.5 pollutant concentration |
 | SDG 13 (Climate Action) | Jena Climate 2009-2016 | Temperature |
 
-See `configs/datasets.yaml` for full source URLs, licence notes, and forecast
+See `configs/datasets.yaml` for full source URLs, license notes, and forecast
 horizons.
 
 ## Protocols audited (P0-P6)
@@ -116,10 +116,10 @@ committed so provenance/checksums are visible without re-downloading anything.
 
 ## Citation
 
-See `CITATION.cff` for structured citation metadata (BibTeX/APA export available
-via GitHub's "Cite this repository" button).
+See [CITATION.cff](CITATION.cff) for structured citation metadata (BibTeX/APA
+export available via GitHub's "Cite this repository" button).
 
-## Licence
+## License
 
-Code is MIT-licensed (see `LICENSE`). Datasets have their own, separate licences
--- see `data/README.md`.
+Code is MIT-licensed (see [LICENSE](LICENSE)). Datasets have their own, separate
+licenses -- see [data/README.md](data/README.md).
