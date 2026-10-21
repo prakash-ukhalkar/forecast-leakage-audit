@@ -1,0 +1,7 @@
+protocol_id,air_quality_uci,appliances_energy_prediction,beijing_multisite_air_quality,household_power_consumption,jena_climate
+P1,-28.02,25.27,2.05,12.29,-7.33
+P2,0.09,-3.71,-2.38,-1.08,-0.07
+P3,11.55,-3.56,0.88,-1.75,-0.51
+P4,-1.34,3.47,4.46,7.75,-3.48
+P5,5.86,3.28,2.66,-0.91,-2.64
+P6,-21.39,27.86,7.23,11.24,-6.9

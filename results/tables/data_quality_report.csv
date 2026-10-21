@@ -1,0 +1,6 @@
+dataset_id,n_rows_raw,n_duplicate_timestamps,n_sentinel_replaced,n_rows_after_freq,n_gap_rows_introduced,pct_missing_target_after_freq,n_outliers_target
+household_power_consumption,2075259,0,0,2075259,0,1.2518437457686005,94907
+appliances_energy_prediction,19735,0,0,19735,0,0.0,2138
+air_quality_uci,9357,0,1683,9357,0,17.986534145559474,215
+beijing_multisite_air_quality,420768,0,0,420768,0,2.0769164955509924,19142
+jena_climate,420551,327,0,420768,544,0.12928739828123811,1537
