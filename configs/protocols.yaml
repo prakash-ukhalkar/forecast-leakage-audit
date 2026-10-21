@@ -1,0 +1,91 @@
+# Protocol definitions P0-P6 for the leakage audit.
+# P0 is the corrected ("leakage-safe") baseline; P1-P6 each inject exactly one protocol
+# error relative to P0, so that the apparent-performance inflation attributable to that
+# single error can be isolated and measured.
+#
+# Implementations are looked up by id via src.sdg_leakage_audit.protocols.registry.
+
+protocols:
+  P0:
+    name: "Corrected baseline"
+    description: >
+      Chronological train/val/test split. Scaler/imputer/feature-selection fitted on
+      the train fold only (never on val or test). Purged gap >= forecast horizon
+      enforced between train and test (and between train and val). Hyperparameter
+      tuning / model selection performed on a validation block that strictly precedes
+      the test block, never on the test block itself.
+    params:
+      split: "chronological_split_with_gap"
+      purge_gap: "== horizon"
+      scaler_fit_on: "train_only"
+      tuning_on: "validation_block_preceding_test"
+
+  P1:
+    name: "Random/shuffled split"
+    description: >
+      Rows (or fixed-length windows) are assigned to train/test by random shuffling
+      instead of chronological order. Breaks the arrow of time: test-set windows can be
+      temporally adjacent to (or even interleaved with) train-set windows, allowing the
+      model to exploit local autocorrelation it would never have access to in a true
+      forecast setting.
+    params:
+      split: "random_split"
+      shuffle: true
+
+  P2:
+    name: "Scaling/imputation fit on full dataset before splitting"
+    description: >
+      The scaler and/or imputer is fit on the full dataset (train+val+test concatenated)
+      before any split is made, then applied to each fold. Statistics of the test set
+      (mean, std, min/max, imputed values) leak into the normalization applied to train,
+      giving the model indirect information about the distribution of future data.
+    params:
+      scaler_fit_on: "full_dataset"
+      split: "chronological_split_with_gap"  # split mechanics unchanged; only fit-order differs
+
+  P3:
+    name: "Overlapping windows across train/test boundary"
+    description: >
+      Sliding windows used to build supervised-learning examples are constructed across
+      the train/test boundary without a purge gap, so some windows contain timestamps
+      from both sides. Because consecutive windows overlap heavily, the test set ends up
+      containing near-duplicates of train-set windows, inflating apparent accuracy.
+    params:
+      split: "chronological_split_with_gap"
+      purge_gap: 0
+      allow_overlap: true
+
+  P4:
+    name: "Target-derived / future-informed features"
+    description: >
+      Feature engineering uses information from the future relative to the prediction
+      origin: e.g. a centered rolling mean/std (uses t-k..t+k instead of t-2k..t), or a
+      lag of the target computed on the full series before splitting (so the "lag"
+      at a train-set timestamp near the boundary actually encodes test-set values after
+      a merge/sort artifact). Both leaky and causal (correctly shifted, split-aware)
+      versions are implemented for direct comparison.
+    params:
+      rolling_feature: "centered"  # vs "causal" (trailing-only) in the corrected path
+      lag_computed_on: "full_series_pre_split"  # vs "train_fold_only"
+
+  P5:
+    name: "Hyperparameter tuning/model selection on the test set"
+    description: >
+      Hyperparameters (or model choice) are selected by directly scoring candidates on
+      the test set and keeping whichever configuration scores best there, instead of
+      using a held-out validation block that precedes the test block. This is a direct
+      form of test-set leakage via model selection rather than via data/features.
+    params:
+      tuning_on: "test_block"  # vs "validation_block_preceding_test" in P0
+
+  P6:
+    name: "Shuffled k-fold CV instead of blocked/expanding-window CV"
+    description: >
+      Model evaluation/selection uses standard shuffled K-fold cross-validation (as is
+      default in most ML tooling) instead of a time-series-aware blocked or
+      expanding-window CV scheme. Each fold's "test" rows can be temporally surrounded
+      by "train" rows from the same fold split, leaking local temporal structure across
+      folds. This is the CV-estimate variant of the audit (compared against blocked CV).
+    params:
+      cv_scheme: "shuffled_kfold"  # vs "blocked_cv" / "expanding_window_cv" baseline
+      n_folds: 5

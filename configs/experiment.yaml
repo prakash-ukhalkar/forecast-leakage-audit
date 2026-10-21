@@ -1,0 +1,39 @@
+# Experiment-level configuration: seeds, repeats, CV scheme, bootstrap settings, and
+# the two named execution profiles ("fast" smoke-test vs "full" final-results grid).
+
+experiment:
+  seeds: [0, 1, 2, 3, 4]
+  n_repeats: 5  # one run per seed above
+
+  cv_scheme:
+    corrected: "expanding_window"  # or "blocked", see protocols/splitters.py::blocked_cv_splits
+    leaky_comparison: "shuffled_kfold"  # P6, see protocols/splitters.py::shuffled_kfold_splits
+    n_folds: 5
+
+  bootstrap:
+    method: "moving_block_bootstrap"
+    n_resamples: 2000
+    block_length: "auto"  # heuristic: ~ forecast horizon or dataset-specific autocorrelation length
+    confidence_level: 0.95
+    random_state_from: "experiment.seeds[0]"
+
+  multiple_comparison_correction: "holm"  # applied in notebook 08
+  omnibus_test: "friedman"
+  posthoc_test: "nemenyi"
+
+profiles:
+  fast:
+    description: "Smoke-test profile: minimal grid, 1-2 seeds, subsampled data, for pipeline validation."
+    seeds: [0]
+    n_repeats: 1
+    data_subsample_frac: 0.05
+    model_param_grid: "params_fast"
+    bootstrap_n_resamples: 100
+
+  full:
+    description: "Final-results profile: full hyperparameter grid, all seeds, full data."
+    seeds: [0, 1, 2, 3, 4]
+    n_repeats: 5
+    data_subsample_frac: 1.0
+    model_param_grid: "params_full"
+    bootstrap_n_resamples: 2000

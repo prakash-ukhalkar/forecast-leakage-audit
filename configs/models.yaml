@@ -1,0 +1,88 @@
+# Model configuration: hyperparameter defaults and grid-size notes.
+# "fast" sizing is for smoke-test profile (see configs/experiment.yaml); "full" is the
+# final-results grid. Actual search spaces are defined in src.sdg_leakage_audit.models.
+
+models:
+  seasonal_naive:
+    kind: "baseline"
+    description: "Forecast = value observed one season (period) ago. No fitting."
+    params:
+      season_length: "dataset-dependent; set from frequency (e.g. 24 for hourly-daily, 7 for daily-weekly)"
+
+  persistence:
+    kind: "baseline"
+    description: "Forecast = last observed value (naive / random-walk forecast)."
+    params: {}
+
+  ridge:
+    kind: "sklearn.linear_model.Ridge"
+    params_fast:
+      alpha: [1.0]
+    params_full:
+      alpha: [0.01, 0.1, 1.0, 10.0, 100.0]
+    notes: "Linear baseline on engineered lag/rolling/calendar features."
+
+  random_forest:
+    kind: "sklearn.ensemble.RandomForestRegressor"
+    params_fast:
+      n_estimators: [50]
+      max_depth: [8]
+    params_full:
+      n_estimators: [100, 300, 500]
+      max_depth: [null, 8, 16]
+      min_samples_leaf: [1, 5]
+    notes: "random_state set from experiment seed; n_jobs=-1."
+
+  lightgbm:
+    kind: "lightgbm.LGBMRegressor"
+    params_fast:
+      n_estimators: [100]
+      learning_rate: [0.1]
+      num_leaves: [15]
+    params_full:
+      n_estimators: [200, 500, 1000]
+      learning_rate: [0.01, 0.05, 0.1]
+      num_leaves: [15, 31, 63]
+      subsample: [0.8, 1.0]
+    notes: "Gradient-boosting model of choice for this study (LightGBM, not XGBoost)."
+
+  mlp:
+    kind: "sklearn.neural_network.MLPRegressor"
+    library_choice_note: >
+      scikit-learn's MLPRegressor chosen over a hand-rolled PyTorch MLP for simplicity
+      and fast CPU fitting on tabular lag/rolling features; the LSTM/GRU (below) uses
+      PyTorch since recurrent sequence models are not available in scikit-learn.
+    params_fast:
+      hidden_layer_sizes: [[32]]
+      max_iter: [200]
+    params_full:
+      hidden_layer_sizes: [[32], [64, 32], [128, 64]]
+      alpha: [0.0001, 0.001]
+      max_iter: [500]
+    notes: "early_stopping=True; random_state set from experiment seed."
+
+  lstm:
+    kind: "torch (custom small LSTM)"
+    params_fast:
+      hidden_size: [16]
+      num_layers: [1]
+      epochs: [5]
+    params_full:
+      hidden_size: [16, 32, 64]
+      num_layers: [1, 2]
+      epochs: [30]
+      dropout: [0.0, 0.2]
+    notes: "CPU-friendly small recurrent model; sequence length tied to lag window."
+
+  gru:
+    kind: "torch (custom small GRU)"
+    params_fast:
+      hidden_size: [16]
+      num_layers: [1]
+      epochs: [5]
+    params_full:
+      hidden_size: [16, 32, 64]
+      num_layers: [1, 2]
+      epochs: [30]
+      dropout: [0.0, 0.2]
+    notes: "Alternative recurrent architecture to LSTM; same training harness."
