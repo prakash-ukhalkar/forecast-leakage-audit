@@ -1,0 +1,46 @@
+{
+  "datasets": {
+    "household_power_consumption": {
+      "dataset_id": "household_power_consumption",
+      "url": "fetch_ucirepo(id=235)",
+      "resolved_url": "ucimlrepo",
+      "date_downloaded": "2026-10-21T15:04:09.613308+00:00",
+      "size_bytes": 128517744,
+      "sha256": "d3a1571b730012894cbe28c7a80da42ea677b740fd8f783b9b72d2d92107f9a7"
+    },
+    "appliances_energy_prediction": {
+      "dataset_id": "appliances_energy_prediction",
+      "url": "fetch_ucirepo(id=374)",
+      "resolved_url": "ucimlrepo",
+      "date_downloaded": "2026-10-21T15:04:09.804841+00:00",
+      "size_bytes": 4427476,
+      "sha256": "fdf5cd6550d15e6fe69020a9bd628947344c6c6baad95e6e714dc01d6036f759"
+    },
+    "air_quality_uci": {
+      "dataset_id": "air_quality_uci",
+      "url": "fetch_ucirepo(id=360)",
+      "resolved_url": "ucimlrepo",
+      "date_downloaded": "2026-10-21T15:04:09.846351+00:00",
+      "size_bytes": 756065,
+      "sha256": "d8196847f231fc141ba16c1376aeb90d747a95353203e20ca3b4ae135438157d"
+    },
+    "beijing_multisite_air_quality": {
+      "dataset_id": "beijing_multisite_air_quality",
+      "url": "fetch_ucirepo(id=501)",
+      "resolved_url": "direct_zip_url",
+      "date_downloaded": "2026-10-21T15:04:09.866634+00:00",
+      "size_bytes": 8192212,
+      "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+    },
+    "jena_climate": {
+      "dataset_id": "jena_climate",
+      "url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_climate_2009_2016.csv.zip",
+      "resolved_url": "direct_zip_url",
+      "date_downloaded": "2026-10-21T15:04:09.919181+00:00",
+      "size_bytes": 13568290,
+      "sha256": "63d757501e92284a7de7cdbef0337f03b24e13ead7ac2b5b8c86a18d8e38ba5b"
+    }
+  },
+  "generated_at": "2026-10-21T15:04:09.954468+00:00",
+  "schema_version": 1
+}
