@@ -1,0 +1,6 @@
+dataset_id,name,sdg_tag,resolved_route,size_bytes,sha256,date_downloaded
+household_power_consumption,Individual household electric power consumption,SDG7,ucimlrepo,128517744,d3a1571b7300...,2026-10-21T15:04:09.613308+00:00
+appliances_energy_prediction,Appliances energy prediction,SDG7,ucimlrepo,4427476,fdf5cd6550d1...,2026-10-21T15:04:09.804841+00:00
+air_quality_uci,Air Quality,SDG3_SDG11,ucimlrepo,756065,d8196847f231...,2026-10-21T15:04:09.846351+00:00
+beijing_multisite_air_quality,Beijing Multi-Site Air-Quality Data,SDG3_SDG11,direct_zip_url,8192212,b04da438b2f3...,2026-10-21T15:04:09.866634+00:00
+jena_climate,Jena Climate 2009-2016,SDG13,direct_zip_url,13568290,63d757501e92...,2026-10-21T15:04:09.919181+00:00

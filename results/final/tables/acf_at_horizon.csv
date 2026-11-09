@@ -1,0 +1,16 @@
+dataset_id,horizon,acf_at_horizon
+air_quality_uci,1,0.8359541431250814
+air_quality_uci,6,0.15536958084999267
+air_quality_uci,24,0.5403363676489621
+appliances_energy_prediction,1,0.7529633324209001
+appliances_energy_prediction,6,0.32346214393360845
+appliances_energy_prediction,24,0.11394858623541528
+beijing_multisite_air_quality,1,0.9665508316772145
+beijing_multisite_air_quality,6,0.7589657666521096
+beijing_multisite_air_quality,24,0.3930737825229389
+household_power_consumption,1,0.9680252260327522
+household_power_consumption,24,0.6647508221016823
+household_power_consumption,60,0.49315909641275324
+jena_climate,1,0.9995572447749529
+jena_climate,6,0.9926461957839502
+jena_climate,144,0.9173689826595527

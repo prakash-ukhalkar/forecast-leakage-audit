@@ -1,0 +1,6 @@
+dataset_id,P1,P2,P3,P4,P5,P6
+air_quality_uci,20.75,-0.02,0.0,15.24,1.03,21.48
+appliances_energy_prediction,12.18,-1.36,0.01,15.65,0.57,23.36
+beijing_multisite_air_quality,-14.7,-0.2,-0.1,17.65,0.13,21.64
+household_power_consumption,27.35,0.77,0.43,8.27,-1.94,32.53
+jena_climate,41.78,1.44,-1.04,1.58,2.51,52.05
