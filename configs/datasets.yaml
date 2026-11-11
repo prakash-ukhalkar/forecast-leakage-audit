@@ -1,0 +1,109 @@
+# Dataset configuration for sdg-leakage-audit.
+# No data is fetched in Phase 1 — this config is consumed by notebooks/01_data_acquisition
+# (Phase 2), via src.sdg_leakage_audit.data.download.
+#
+# For each UCI dataset we provide two source routes:
+#   - ucimlrepo: the `ucimlrepo` Python package (`fetch_ucirepo(id=...)`), preferred.
+#   - direct_zip_url: a direct archive.ics.uci.edu static-mirror fallback, used if the
+#     package route fails (e.g. offline mirror change, package API change, rate limiting).
+
+datasets:
+  household_power_consumption:
+    uci_id: 235
+    name: "Individual household electric power consumption"
+    sdg_tag: "SDG7"
+    source:
+      ucimlrepo: "fetch_ucirepo(id=235)"
+      direct_zip_url: "https://archive.ics.uci.edu/static/public/235/individual+household+electric+power+consumption.zip"
+    target_column: "Global_active_power"
+    timestamp_column: "Date_Time"  # constructed by concatenating Date + Time columns
+    frequency: "1min"
+    forecast_horizons: [1, 24, 60]  # minutes-equivalent steps; revisit after resampling choice in notebook 02
+    season_length: 1440  # one day at 1-minute resolution; used by the seasonal-naive baseline
+    licence: "UCI Machine Learning Repository - open for research/academic use. See https://archive.ics.uci.edu/ (CC BY 4.0 for repo metadata; verify per-dataset terms)."
+    description: >
+      Measurements of electric power consumption in one household with a one-minute
+      sampling rate over almost 4 years (2006-2010). Used for SDG 7 (affordable and
+      clean energy) load/demand forecasting.
+
+  appliances_energy_prediction:
+    uci_id: 374
+    name: "Appliances energy prediction"
+    sdg_tag: "SDG7"
+    source:
+      ucimlrepo: "fetch_ucirepo(id=374)"
+      direct_zip_url: "https://archive.ics.uci.edu/static/public/374/appliances+energy+prediction.zip"
+    target_column: "Appliances"
+    timestamp_column: "date"
+    frequency: "10min"
+    forecast_horizons: [1, 6, 24]
+    season_length: 144  # one day at 10-minute resolution
+    licence: "UCI Machine Learning Repository - open for research/academic use. Verify per-dataset terms."
+    description: >
+      Experimental data used to create regression models of appliance energy use in a
+      low-energy house, with temperature/humidity sensor data. Used for SDG 7.
+
+  air_quality_uci:
+    uci_id: 360
+    name: "Air Quality"
+    sdg_tag: "SDG3_SDG11"
+    source:
+      ucimlrepo: "fetch_ucirepo(id=360)"
+      direct_zip_url: "https://archive.ics.uci.edu/static/public/360/air+quality.zip"
+    target_column: "CO(GT)"
+    timestamp_column: "DateTime"  # constructed from Date + Time columns
+    frequency: "1h"
+    forecast_horizons: [1, 6, 24]
+    season_length: 24  # one day at 1-hour resolution
+    sentinel_missing_value: -200  # documented UCI sentinel for missing readings
+    licence: "UCI Machine Learning Repository - open for research/academic use. Verify per-dataset terms."
+    description: >
+      Hourly averaged responses from an array of 5 metal oxide chemical sensors in an
+      Italian city, plus reference analyzer concentrations. Used for SDG 3 (health, air
+      pollution exposure) and SDG 11 (sustainable cities, urban air quality).
+
+  beijing_multisite_air_quality:
+    uci_id: 501
+    name: "Beijing Multi-Site Air-Quality Data"
+    sdg_tag: "SDG3_SDG11"
+    source:
+      ucimlrepo: "fetch_ucirepo(id=501)"
+      direct_zip_url: "https://archive.ics.uci.edu/static/public/501/beijing+multi+site+air+quality+data.zip"
+    target_column: "PM2.5"
+    timestamp_column: "DateTime"  # constructed from year/month/day/hour columns
+    frequency: "1h"
+    forecast_horizons: [1, 6, 24]
+    season_length: 24  # one day at 1-hour resolution
+    licence: "UCI Machine Learning Repository - open for research/academic use. Verify per-dataset terms."
+    description: >
+      Hourly air pollutant data from 12 nationally controlled air-quality monitoring
+      sites in Beijing (2013-2017), matched with meteorological data. Used for SDG 3
+      and SDG 11. NOTE: per project decision, id 501 is used exclusively (id 381, an
+      older/smaller single-site variant, is intentionally excluded).
+
+  jena_climate:
+    uci_id: null  # not a UCI dataset
+    name: "Jena Climate 2009-2016"
+    sdg_tag: "SDG13"
+    source:
+      direct_zip_url: "https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_climate_2009_2016.csv.zip"
+    target_column: "T (degC)"
+    timestamp_column: "Date Time"
+    frequency: "10min"
+    forecast_horizons: [1, 6, 144]  # 144 steps = 1 day at 10-min resolution
+    season_length: 144  # one day at 10-minute resolution
+    licence: >
+      Provided by the Max Planck Institute for Biogeochemistry (Jena, Germany), mirrored
+      by Google/TensorFlow for tutorial use. TODO-VERIFY exact redistribution/commercial-use
+      terms before any redistribution beyond research use; treat as research/non-commercial
+      use only until confirmed.
+    description: >
+      Weather time series recorded at the Max Planck Institute for Biogeochemistry weather
+      station, Jena, Germany, at 10-minute intervals (2009-2016). Used for SDG 13 (climate
+      action) climate/weather forecasting.
+
+  # open_power_system_data:
+  #   TODO (Phase 2+, currently SKIPPED per project decision): Open Power System Data
+  #   (https://open-power-system-data.org/) would add renewable generation / load /
+  #   price time series relevant to SDG 7 and SDG 13. Deliberately not configured yet -
+  #   revisit after the core 5-dataset audit is complete.
