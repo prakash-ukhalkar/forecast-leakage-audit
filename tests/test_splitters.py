@@ -87,3 +87,22 @@ def test_shuffled_kfold_differs_from_blocked_cv_in_contiguity():
     _, test_idx = kfolds[0]
     is_contiguous = np.all(np.diff(np.sort(test_idx)) == 1)
     assert not is_contiguous
+
+
+def test_size_matched_shuffled_splits_match_blocked_sizes_and_are_disjoint():
+    from sdg_leakage_audit.protocols.splitters import blocked_cv_splits, size_matched_shuffled_splits
+
+    n, horizon = 600, 6
+    blocked = blocked_cv_splits(n, n_folds=5, horizon=horizon, expanding=True)
+    matched = size_matched_shuffled_splits(n, n_folds=5, horizon=horizon, seed=3)
+    assert len(matched) == len(blocked)
+    for (tb, eb), (tm, em) in zip(blocked, matched):
+        assert len(tm) == len(tb) and len(em) == len(eb)
+        assert len(set(tm) & set(em)) == 0
+    # positions are NOT chronological: some test rows precede some train rows (the leak being controlled for)
+    assert any(em.min() < tm.max() for tm, em in [(m[0], m[1]) for m in matched])
+    # reproducible for a fixed seed, different across seeds
+    again = size_matched_shuffled_splits(n, n_folds=5, horizon=horizon, seed=3)
+    assert all((a[0] == b[0]).all() and (a[1] == b[1]).all() for a, b in zip(matched, again))
+    other = size_matched_shuffled_splits(n, n_folds=5, horizon=horizon, seed=4)
+    assert not all((a[1] == b[1]).all() for a, b in zip(matched, other))

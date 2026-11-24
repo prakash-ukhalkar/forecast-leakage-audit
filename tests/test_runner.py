@@ -252,7 +252,7 @@ def test_run_single_cell_on_frame_supports_custom_window_feature_set(synthetic_p
     assert np.isfinite(result["mae"])
 
 
-@pytest.mark.parametrize("protocol_id", ["P0V", "P6B"])
+@pytest.mark.parametrize("protocol_id", ["P0V", "P6B", "P6S"])
 def test_control_protocols_run(synthetic_project: Path, protocol_id: str):
     result = runner.run_single_cell("synthetic", protocol_id, "ridge", horizon=1, seed=0, config=FAST_CONFIG)
     assert np.isfinite(result["mae"])
