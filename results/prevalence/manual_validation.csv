@@ -1,0 +1,6 @@
+family,flagged_repos,verified_repos,precision
+RANDOM_SPLIT,12,9,0.75
+NONCHRONO_CV,4,3,0.75
+FIT_BEFORE_SPLIT,3,3,1.0
+LOOKAHEAD,1,0,0.0
+TEST_SELECTION,2,2,1.0

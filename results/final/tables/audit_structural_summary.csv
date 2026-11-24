@@ -1,0 +1,11 @@
+protocol,cells,flagged,flagged_any,flawed,flag_rate,codes
+P0,18,0,0,False,0.0,none
+P0V,18,0,0,False,0.0,none
+P6B,18,0,18,False,0.0,none
+P1,18,18,18,True,1.0,SPLIT-ORDER
+P2,18,18,18,True,1.0,FIT-LEAK
+P3,18,18,18,True,1.0,SPLIT-GAP
+P4,18,12,18,True,0.6666666666666666,FEAT-LOOKAHEAD
+P5,18,18,18,True,1.0,SELECT-LEAK
+P6,18,18,18,True,1.0,"CV-LEAK, SPLIT-ORDER"
+P6S,18,18,18,True,1.0,"CV-LEAK, SPLIT-ORDER"

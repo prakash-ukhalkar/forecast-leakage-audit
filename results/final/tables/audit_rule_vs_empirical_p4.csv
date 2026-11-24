@@ -1,0 +1,16 @@
+dataset_id,horizon,mae_inflation_pct,rule_exposed,empirical_leak_5pct
+air_quality_uci,1,20.427774272370474,True,True
+air_quality_uci,6,22.951087129046574,True,True
+air_quality_uci,24,2.350952984152916,False,False
+appliances_energy_prediction,1,18.151687518463792,True,True
+appliances_energy_prediction,6,28.252534536197757,True,True
+appliances_energy_prediction,24,0.5384479015585194,False,False
+beijing_multisite_air_quality,1,18.900595842504874,True,True
+beijing_multisite_air_quality,6,29.81472362494314,True,True
+beijing_multisite_air_quality,24,4.221521793730695,False,False
+household_power_consumption,1,0.03791933432398616,True,False
+household_power_consumption,24,32.84893453952553,True,True
+household_power_consumption,60,-8.075557509143428,False,False
+jena_climate,1,5.293975086681509,True,True
+jena_climate,6,8.63137159121887,True,True
+jena_climate,144,-9.189230495974208,False,False

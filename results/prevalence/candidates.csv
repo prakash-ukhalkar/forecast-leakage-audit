@@ -1,0 +1,1247 @@
+full_name,stars,stratum,size_kb,created,pushed,query
+pvl/langchain_forecast,20,low,9,2023-05-02,2023-06-05,time series forecasting
+RafaDD/CondTSF,20,low,218,2024-06-11,2026-06-05,time series forecasting
+LRQ577/FAITH,20,low,4468,2024-05-03,2025-06-20,time series forecasting
+JingzheShi/ScalingLawForTimeSeriesForecasting,20,low,6310,2024-05-23,2024-10-23,time series forecasting
+huytjuh/Subsequence-Time-Series-Clustering,20,low,152,2022-01-19,2022-10-19,time series forecasting
+Chengyui/SUMformer,20,low,86977,2023-12-04,2024-11-22,time series forecasting
+Master-PLC/DistDF,20,low,3469,2025-09-25,2025-09-29,time series forecasting
+yyalau/iclr2025_dsof,20,low,1129,2025-02-22,2025-04-30,time series forecasting
+ChenDelong1999/HHForecasting,20,low,39967,2022-01-25,2023-03-08,time series forecasting
+Rabbit1026HG/Forecast-API,20,low,13,2025-01-31,2025-04-07,time series forecasting
+frinkleko/TiDE-Applications,20,low,11,2023-05-06,2023-05-09,time series forecasting
+pik1989/Guide-on-Time-Series-Analysis-using-ARIMA-LSTM-fbProphet,19,low,507,2019-03-21,2020-05-09,time series forecasting
+JL-tong/PDTrans,19,low,163,2022-10-18,2023-09-19,time series forecasting
+CapricornGuang/Diviner-Nonstationary-time-series-forecasting,19,low,35346,2022-05-06,2023-10-18,time series forecasting
+TranThanhTuan2509/Time-Series-Forecasting,19,low,22,2023-11-21,2024-02-05,time series forecasting
+XinleWu/AutoCTS,19,low,15037,2021-12-15,2022-01-21,time series forecasting
+xinzzzhou/ScalableTransformer4HighDimensionMTSF,19,low,368,2024-05-13,2025-01-13,time series forecasting
+ddayto21/Stock-Forecasting,19,low,297,2022-07-18,2025-01-21,time series forecasting
+martins0n/tide,19,low,226,2023-05-09,2023-07-16,time series forecasting
+Eukla/ETS,19,low,8319,2020-12-25,2024-07-31,time series forecasting
+jax-state-spaces/mamba2-jax,19,low,7180,2025-11-18,2026-06-23,time series forecasting
+JIANGYUE61610306/SAGDFN,19,low,59,2023-05-29,2023-12-13,time series forecasting
+ShiqiaoZhou/SARAF,19,low,139,2026-06-01,2026-09-23,time series forecasting
+hdtkk/HDT,19,low,711,2025-02-12,2025-02-17,time series forecasting
+Simeonedef/Time-Series_Imaging_Forecasting,18,low,202614,2020-03-04,2023-07-06,time series forecasting
+puffinsoft/benchstreet,18,low,3686,2025-07-18,2025-07-19,time series forecasting
+bioinfoUQAM/MultiPatchFormer,18,low,353,2025-01-24,2025-10-22,time series forecasting
+0zean/MODWT-MARS,18,low,1734,2019-02-05,2024-09-23,time series forecasting
+MIMUW-RL/Unified-Long-Horizon-Time-Series-Benchmark,18,low,213,2023-10-03,2026-10-14,time series forecasting
+wintertee/DiPE-Linear,18,low,48,2024-11-26,2026-04-21,time series forecasting
+nyuolab/Gateformer,18,low,4750,2025-05-01,2025-05-02,time series forecasting
+Thinklab-SJTU/MMPD,18,low,827,2026-02-20,2026-04-03,time series forecasting
+Shi-hm/OCE-TS,18,low,2240,2025-11-13,2025-11-17,time series forecasting
+sinancan34/chronomaly,18,low,2465,2025-11-06,2025-12-20,time series forecasting
+johntwk/Python-ML-rolling-grid-search,18,low,249,2017-10-07,2017-10-17,time series forecasting
+Hannibal046/GridTST,18,low,33,2023-12-14,2024-05-29,time series forecasting
+zqiao11/MSFT,18,low,156,2025-09-22,2025-09-23,time series forecasting
+Luoauoa/ReNF,18,low,5912,2025-09-22,2026-07-16,time series forecasting
+Prismadic/simple-CMamba,18,low,13,2024-07-18,2024-07-19,time series forecasting
+dataiku/dss-plugin-timeseries-forecast,17,low,784,2020-06-05,2023-04-14,time series forecasting
+flaviagiammarino/nbeats-tensorflow,17,low,1061,2021-10-21,2024-06-17,time series forecasting
+knightianuncertainty/regimes,17,low,6237,2026-02-06,2026-11-24,time series forecasting
+linyijun/transformer-vs-lstm-forecasting,17,low,1770,2021-11-30,2021-12-21,time series forecasting
+CityMind-Lab/DropoutTS,17,low,4468,2026-01-29,2026-01-29,time series forecasting
+sir-lab/linear-forecasting,17,low,53381,2024-05-28,2024-06-28,time series forecasting
+Smlcrm/TempusBench,17,low,655258,2025-05-28,2026-10-22,time series forecasting
+SKURA502/ProtoTS,17,low,79421,2025-05-15,2026-03-11,time series forecasting
+decisionintelligence/ASTGI,17,low,2083,2026-02-27,2026-06-12,time series forecasting
+JohnsonJiang1996/AdvAttack_LLM4TS,17,low,5781,2024-12-28,2025-04-30,time series forecasting
+ag-ds-bubble/tseuler,17,low,29357,2020-12-05,2020-12-10,time series forecasting
+Master-PLC/Time-o1,16,low,13500,2025-05-14,2026-07-01,time series forecasting
+zhendong3wang/counterfactual-explanations-for-forecasting,16,low,4401,2023-09-28,2024-02-14,time series forecasting
+zhkai/MTSF-DG,16,low,17688,2022-10-13,2025-08-31,time series forecasting
+EtienneLnr/TimeFlow,16,low,41328,2023-05-24,2025-11-08,time series forecasting
+JLDeng/SSCNN,16,low,40168,2023-11-22,2024-12-24,time series forecasting
+Meteor-Stars/SEMixer,16,low,1051,2025-01-31,2026-06-26,time series forecasting
+Master-PLC/QDF,16,low,3747,2025-09-25,2025-11-28,time series forecasting
+RCR-LYY/TimeCAP,16,low,3522,2025-11-11,2026-08-31,time series forecasting
+senadkurtisi/Multivariate-Time-Series-Forecast,16,low,840,2020-10-10,2020-11-12,time series forecasting
+hkuedl/Evolving_Multiscale_Normalization,16,low,207,2024-05-21,2025-01-03,time series forecasting
+rakshitha123/Localised_Ensembles,16,low,32632,2021-03-02,2021-12-02,time series forecasting
+aaronhan223/htsf,15,low,223421,2022-01-05,2023-02-08,time series forecasting
+kperry2215/electricity_price_time_series_analysis,15,low,10,2019-07-19,2019-07-19,time series forecasting
+basiralab/EvoGraphNet,15,low,294,2020-07-21,2023-12-04,time series forecasting
+jitinjami/TimeSeriesForecastingwithGNN,15,low,41079,2022-04-25,2022-04-25,time series forecasting
+XDjiang25/AdaMamba,15,low,2349,2026-04-08,2026-11-14,time series forecasting
+grimmlab/ForeTiS,15,low,6272,2023-01-24,2025-01-24,time series forecasting
+superlin30/GFMixer,15,low,328,2026-01-21,2026-06-22,time series forecasting
+HALF111/TSF_architecture,15,low,235,2024-04-30,2025-11-12,time series forecasting
+niuwz/LangTime,15,low,331,2025-03-10,2026-02-09,time series forecasting
+dongbeank/LGA,15,low,1551,2025-09-25,2026-02-24,time series forecasting
+HowardLiu28/PRADA,15,low,1125,2024-12-23,2025-05-28,time series forecasting
+An-z-d/FreDN,15,low,5557,2026-02-03,2026-04-01,time series forecasting
+TonyLu786/tsfm-mre,15,low,1393,2025-09-07,2026-10-16,time series forecasting
+ACAT-SCUT/PETformer,15,low,568,2024-11-07,2024-12-06,time series forecasting
+Guan-t7/myTLAE,15,low,10,2022-06-08,2022-06-09,time series forecasting
+stepulak/time-series-forecasting,14,low,7,2018-10-22,2020-10-05,time series forecasting
+flaviagiammarino/lstnet-tensorflow,14,low,1577,2021-11-18,2024-06-18,time series forecasting
+shz9/csc2541-ml-project,14,low,45073,2017-10-28,2017-12-13,time series forecasting
+quovadisss/TimeSeriesForecasting_AI_team1,14,low,1824,2021-06-07,2021-06-07,time series forecasting
+salmansust/TimeSeries-CNN,14,low,5,2020-02-27,2020-02-27,time series forecasting
+MasterZhou1/ICL-Time-Series,14,low,77,2025-10-05,2025-10-15,time series forecasting
+tmdt-buw/Time-Series-Dataset-Survey-4-Forecasting-with-Deep-Learning,14,low,46,2023-02-28,2024-01-14,time series forecasting
+Ruhul-Quddus-Tamim/Time-Series-Transformer,14,low,1091,2024-09-18,2024-09-30,time series forecasting
+Anurag-Dutta/PINNTSF,14,low,10853,2023-05-26,2023-06-01,time series forecasting
+jinkwan1115/ChannelTokenFormer,14,low,10902,2026-02-22,2026-02-24,time series forecasting
+Flora-jia-jfr/GPT4MTS-Prompt-based-Large-Language-Model-for-Multimodal-Time-series-Forecasting,14,low,683,2024-05-29,2024-09-17,time series forecasting
+Adir7SK/deep_fin_benchmark,14,low,123,2026-03-19,2026-03-19,time series forecasting
+business-science/pymodeltime,14,low,2450,2023-12-24,2024-02-05,time series forecasting
+Day333/CvLoss,14,low,3807,2026-02-18,2026-10-27,time series forecasting
+neumyor/PhaseFormer,14,low,43891,2025-09-19,2026-11-23,time series forecasting
+sheoyon-jhin/EXIT,14,low,1842,2021-10-21,2023-10-18,time series forecasting
+OrigamiSL/FDNet,14,low,4859,2022-11-11,2024-03-06,time series forecasting
+OrigamiSL/FPPformer,14,low,2002,2023-10-01,2024-03-06,time series forecasting
+lluissalvat/XGBoost-Stock-Price-Prediction,14,low,165,2022-07-06,2022-07-06,time series forecasting
+Reza-Rezvan/LSTM_HHO,14,low,46,2024-02-28,2025-04-08,time series forecasting
+wzhSteve/Sepformer,14,low,6217,2022-04-27,2024-12-01,time series forecasting
+Wangzzzzzzzz/RootPurge,14,low,2193,2026-02-28,2026-03-03,time series forecasting
+mavillan/tsforest,13,low,246,2019-08-27,2021-09-05,time series forecasting
+flare200020/HTV_Trans,13,low,6403,2024-01-03,2024-04-20,time series forecasting
+ThomasMBury/ewstools,100,mid,39312,2018-11-01,2026-10-15,time series forecasting
+gitbooo/CrossViVit,100,mid,490,2023-05-31,2024-09-11,time series forecasting
+zhangzw16/SageFormer,99,mid,62,2024-02-20,2024-03-29,time series forecasting
+taohan10200/WEATHER-5K,99,mid,5363,2024-06-04,2026-01-30,time series forecasting
+skyegunasekaran/FutureGuidedLearning,98,mid,1132,2025-01-07,2026-02-22,time series forecasting
+GestaltCogTeam/GinAR,98,mid,89,2023-07-26,2025-03-12,time series forecasting
+astrogilda/tsbootstrap,98,mid,12705,2023-07-06,2026-11-23,time series forecasting
+jjdabr/forecastNet,97,mid,70,2020-02-13,2021-03-25,time series forecasting
+SJTU-DMTai/LIFT,97,mid,757,2024-02-19,2024-10-28,time series forecasting
+MSRDL/Deep4Cast,94,mid,60459,2015-03-03,2019-08-01,time series forecasting
+shaowen310/TimesMamba,93,mid,264,2024-05-06,2025-05-02,time series forecasting
+wearesulie/sulie,92,mid,3972,2024-08-20,2024-12-17,time series forecasting
+dreamers-laboratory/timeseries-atlas,90,mid,24,2026-09-02,2026-09-02,time series forecasting
+Secure-and-Intelligent-Systems-Lab/WPMixer,90,mid,1228,2024-12-22,2026-06-17,time series forecasting
+Levi-Ackman/Leddam,90,mid,119,2024-05-24,2026-09-29,time series forecasting
+vincent-leguen/STRIPE,89,mid,264,2020-12-10,2021-04-16,time series forecasting
+yantijin/ScoreGradPred,89,mid,133,2021-06-18,2025-02-04,time series forecasting
+S-FM/faim-python-client,89,mid,4253,2025-10-10,2026-01-26,time series forecasting
+aimclub/Fedot.Industrial,88,mid,415311,2022-01-14,2026-11-20,time series forecasting
+TrustAGI-Lab/MTGODE,88,mid,117,2022-06-30,2022-11-10,time series forecasting
+tblume1992/LazyProphet,87,mid,205,2022-02-13,2022-09-09,time series forecasting
+continuousintelligence/ci,87,mid,1344,2026-11-11,2026-11-24,time series forecasting
+FTF1990/Industrial-digital-twin-by-transformer,87,mid,1852,2025-10-07,2026-02-13,time series forecasting
+Cre4T3Tiv3/gitvoyant,87,mid,4599,2025-07-11,2026-03-30,time series forecasting
+aryan-jadon/Regression-Loss-Functions-in-Time-Series-Forecasting-Tensorflow,86,mid,2640,2022-09-21,2025-02-21,time series forecasting
+stanliu96/RATD,86,mid,46710,2024-10-24,2024-10-29,time series forecasting
+weibinxu86/autotsforecast,86,mid,5422,2025-12-15,2026-05-17,time series forecasting
+Rose-STL-Lab/torchTS,85,mid,7428,2020-12-18,2026-11-02,time series forecasting
+Okes2024/Renewable-Energy-Demand-Forecasting-Using-Time-Series,85,mid,17,2025-04-01,2025-09-09,time series forecasting
+XDZhelheim/HimNet,85,mid,152043,2024-01-31,2024-09-04,time series forecasting
+zhycs/LaST,83,mid,4865,2022-09-19,2022-10-09,time series forecasting
+BenchCouncil/TimeMosaic,83,mid,9781,2025-06-19,2026-03-24,time series forecasting
+Mellon-Inc/FLAIR,83,mid,100639,2026-03-22,2026-05-12,time series forecasting
+Graph-and-Geometric-Learning/TimeSeriesCCM,82,mid,112,2024-10-30,2024-10-30,time series forecasting
+microprediction/skaters,81,mid,90639,2026-03-21,2026-11-23,time series forecasting
+kalpishs/SMAI-stock-prediction,81,mid,15724,2016-04-18,2016-11-09,time series forecasting
+decisionintelligence/Aurora,80,mid,3308,2026-01-27,2026-04-29,time series forecasting
+jiegzhan/time-series-forecasting-rnn-tensorflow,78,mid,37,2018-01-25,2019-01-02,time series forecasting
+mounalab/Multivariate-time-series-forecasting-keras,77,mid,67354,2022-03-26,2022-04-08,time series forecasting
+Flawless1202/Non-AR-Spatial-Temporal-Transformer,77,mid,811,2021-02-11,2021-04-13,time series forecasting
+archon159/RAFT,76,mid,40,2024-09-25,2025-05-12,time series forecasting
+birla-ai-labs/yug,75,mid,177,2026-10-01,2026-11-17,time series forecasting
+D2I-Group/TSFLab,73,mid,17921,2026-03-25,2026-11-03,time series forecasting
+XiudingCai/MambaTS-pytorch,73,mid,97,2024-05-26,2024-10-02,time series forecasting
+FabianoDicheti/dqtimes,72,mid,1808,2025-08-03,2025-09-16,time series forecasting
+Anoise/Minusformer,72,mid,2219,2024-01-31,2025-01-22,time series forecasting
+usualheart/PRformer,72,mid,3870,2024-08-11,2024-10-28,time series forecasting
+decisionintelligence/APN,70,mid,3504,2025-11-15,2026-04-22,time series forecasting
+SJTU-DMTai/OnlineTSF,69,mid,153,2024-12-12,2025-12-25,time series forecasting
+NVIDIA/Kumo-TS,68,mid,1627,2026-03-23,2026-11-16,time series forecasting
+cfeng783/GTT,67,mid,235004,2023-07-10,2024-10-21,time series forecasting
+biolab/orange3-timeseries,67,mid,4007,2016-07-12,2025-08-22,time series forecasting
+monaf-chowdhury/T3Time,67,mid,9732,2025-07-24,2025-12-06,time series forecasting
+decisionintelligence/SRSNet,66,mid,6320,2025-10-10,2026-01-06,time series forecasting
+dongbeank/CATS,65,mid,1015,2024-09-26,2024-12-31,time series forecasting
+JLDeng/ST-Norm,65,mid,7780,2021-02-04,2024-06-13,time series forecasting
+benman1/time-series,64,mid,1845,2021-10-03,2021-12-19,time series forecasting
+Victorletzelter/timeMCL,64,mid,1431,2025-04-03,2025-08-17,time series forecasting
+rebase-energy/energydb,64,mid,7536,2026-03-26,2026-09-03,time series forecasting
+opringle/multivariate_time_series_forecasting,62,mid,99246,2017-12-17,2020-02-04,time series forecasting
+Smlcrm/Chronax,62,mid,3374,2025-09-15,2026-11-11,time series forecasting
+Jeevesh8/GHI-prediction,62,mid,94,2020-02-08,2020-05-21,time series forecasting
+KangOxford/Volume-Forecasting,61,mid,12140,2022-10-31,2024-04-17,time series forecasting
+decisionintelligence/K2VAE,61,mid,9673,2025-05-29,2025-07-31,time series forecasting
+panzijie825/S2IP-LLM,61,mid,57,2024-06-01,2024-07-17,time series forecasting
+azencot-group/KGO,61,mid,1410,2026-11-03,2026-11-04,time series forecasting
+kutaytire/Retrieval-Augmented-Time-Series-Forecasting,60,mid,284,2024-10-27,2024-11-24,time series forecasting
+maxmekiska/imbrium,60,mid,1278,2022-06-29,2024-05-27,time series forecasting
+automl/TempoPFN,59,mid,373,2025-10-24,2025-11-10,time series forecasting
+hanlu-nju/channel_independent_MTSF,58,mid,662,2023-03-29,2025-09-03,time series forecasting
+sunbus100/FreqMoE-main,57,mid,3450,2024-10-11,2025-03-17,time series forecasting
+Hank0626/WFTNet,56,mid,32,2023-09-30,2024-03-13,time series forecasting
+ChefLiutao/Time-series-forecasting-via-deep-reinforcement-learning,55,mid,120,2020-05-19,2020-06-11,time series forecasting
+ZhouYuxuanYX/Wavenet-in-Keras-for-Kaggle-Competition-Web-Traffic-Time-Series-Forecasting,55,mid,1372,2018-10-06,2019-08-08,time series forecasting
+finint/MAGNN,55,mid,7103,2023-08-19,2024-01-14,time series forecasting
+UnifiedTSAI/Time-HD-Lib,54,mid,6551,2025-05-20,2026-01-26,time series forecasting
+sebasutp/trajectory_forcasting,54,mid,26,2019-09-06,2022-03-20,time series forecasting
+decisionintelligence/DAG,54,mid,4469,2025-09-18,2026-05-15,time series forecasting
+EsmeYi/time-series-forcasting,53,mid,3984,2019-03-25,2019-06-29,time series forecasting
+TWK2022/TimeSeriesForecasting,53,mid,12853,2022-12-20,2025-11-23,time series forecasting
+zclzcl0223/CMamba,53,mid,716,2024-08-18,2025-01-06,time series forecasting
+lunaaa95/mou,53,mid,3635,2024-08-08,2025-08-07,time series forecasting
+yangysc/Wavelet-HFCM,53,mid,357,2017-03-29,2022-07-13,time series forecasting
+Sachithx/EntroPE,53,mid,5348,2025-09-25,2026-11-19,time series forecasting
+drumtorben/polars-ts,52,mid,15867,2025-01-22,2026-11-14,time series forecasting
+skforecast/skforecast-ai,52,mid,43522,2026-04-29,2026-11-12,time series forecasting
+ustc-time-series/PIR,52,mid,1036,2025-01-21,2025-10-26,time series forecasting
+samluxenberg1/Time-Series-Forecasting-with-Wavelets,51,mid,2743,2018-03-26,2018-03-26,time series forecasting
+OrigamiSL/TCCT2021,50,mid,43,2021-07-09,2022-02-03,time series forecasting
+decisionintelligence/DTAF,50,mid,1721,2025-11-14,2026-01-27,time series forecasting
+saurav-dhait/Time-Series-Forecasting-with-xLSTM,50,mid,1998,2024-07-11,2024-08-19,time series forecasting
+alanyoungCN/WaveForM,50,mid,11,2023-03-05,2023-03-05,time series forecasting
+jehangiramjad/tslib,48,mid,571237,2018-03-15,2021-12-14,time series forecasting
+liaoyuhua/tempo-pytorch,48,mid,3738,2024-01-08,2024-01-11,time series forecasting
+lixixibj/forecasting-with-time-series-imaging,47,mid,14981,2020-05-15,2023-08-30,time series forecasting
+sheoyon-jhin/ANCDE,47,mid,61366,2021-11-24,2023-11-08,time series forecasting
+xun468/Time-GNN,46,mid,422,2023-06-21,2023-11-30,time series forecasting
+wolfws/keras-tensorflow-financial-time-series-signal-forecast,46,mid,7,2017-02-04,2017-02-05,time series forecasting
+ddz16/Preformer,46,mid,535,2022-10-26,2023-02-17,time series forecasting
+litanli/wavenet-time-series-forecasting,45,mid,13,2019-10-04,2024-03-28,time series forecasting
+yuqinie98/PatchTST,2752,high,13212,2022-10-25,2024-08-12,time series forecasting
+KimMeen/Time-LLM,2718,high,1117,2024-01-20,2025-10-15,time series forecasting
+cure-lab/LTSF-Linear,2535,high,5943,2022-05-26,2024-01-27,time series forecasting
+AIStream-Peelout/flow-forecast,2308,high,9272,2019-08-15,2026-10-12,time series forecasting
+thuml/iTransformer,2251,high,12048,2023-10-19,2025-07-17,time series forecasting
+WenjieDu/PyPOTS,2097,high,4785,2022-03-29,2026-11-23,time series forecasting
+kwuking/TimeMixer,1997,high,5527,2024-03-05,2025-10-05,time series forecasting
+GestaltCogTeam/BasicTS,1843,high,23937,2022-02-21,2026-11-03,time series forecasting
+KEV0143/Comparative-analysis-of-hourly-load-forecasting-using-PatchTST-TFT-NHiTS-and-CatBoost,1765,high,4558,2025-09-15,2026-07-25,time series forecasting
+alkaline-ml/pmdarima,1741,high,83085,2017-03-30,2026-10-19,time series forecasting
+time-series-foundation-models/lag-llama,1602,high,265,2024-02-07,2025-06-06,time series forecasting
+skforecast/skforecast,1551,high,1355563,2021-02-10,2026-11-24,time series forecasting
+aeon-toolkit/aeon,1482,high,131310,2022-12-20,2026-11-23,time series forecasting
+winedarksea/AutoTS,1432,high,61339,2019-11-26,2026-11-19,time series forecasting
+zalandoresearch/pytorch-ts,1372,high,3921,2020-03-16,2024-06-14,time series forecasting
+Nixtla/mlforecast,1310,high,41753,2021-04-26,2026-11-19,time series forecasting
+functime-org/functime,1195,high,292257,2023-06-05,2026-05-03,time series forecasting
+philipperemy/n-beats,907,high,219372,2019-07-24,2023-03-03,time series forecasting
+LongxingTan/Time-series-prediction,892,high,7995,2018-05-03,2026-11-01,time series forecasting
+DaoSword/Time-Series-Forecasting-and-Deep-Learning,814,high,842,2022-07-25,2026-10-19,time series forecasting
+zillow/luminaire,810,high,17246,2020-07-08,2026-06-02,time series forecasting
+Jenniferz28/Time-Series-ARIMA-XGBOOST-RNN,782,high,3243,2017-11-13,2019-10-02,time series forecasting
+shunyaoshih/TPA-LSTM,733,high,45,2018-11-24,2018-11-29,time series forecasting
+Thinklab-SJTU/Crossformer,716,high,2332,2023-02-14,2023-12-01,time series forecasting
+JulesBelveze/time-series-autoencoder,715,high,353,2020-06-05,2025-11-11,time series forecasting
+cure-lab/SCINet,668,high,536,2021-09-12,2023-07-12,time series forecasting
+mims-harvard/UniTS,649,high,49,2024-02-16,2024-09-26,time series forecasting
+TimeCopilot/timecopilot,642,high,34091,2025-06-18,2026-11-18,time series forecasting
+microsoft/StemGNN,619,high,14896,2020-06-04,2024-05-31,time series forecasting
+thuml/Nonstationary_Transformers,568,high,4346,2022-09-30,2024-08-19,time series forecasting
+PaddlePaddle/PaddleTS,545,high,7415,2022-05-17,2026-04-17,time series forecasting
+lucidrains/iTransformer,539,high,180,2023-10-11,2025-06-12,time series forecasting
+thuml/TimeXer,529,high,4119,2024-10-22,2024-11-27,time series forecasting
+firmai/atspy,519,high,811,2020-01-28,2022-11-21,time series forecasting
+PriorLabs/tabpfn-time-series,482,high,28635,2025-01-05,2026-11-23,time series forecasting
+antoinecarme/pyaf,461,high,297141,2016-10-13,2026-10-04,time series forecasting
+Nixtla/tsfeatures,453,high,236,2019-11-20,2026-10-26,time series forecasting
+ts-kim/RevIN,450,high,11578,2022-03-15,2024-09-13,time series forecasting
+FilippoMB/Time-series-classification-and-clustering-with-Reservoir-Computing,432,high,15944,2018-03-13,2025-03-15,time series forecasting
+GestaltCogTeam/STEP,427,high,64036,2022-02-08,2023-12-10,time series forecasting
+zhangxu0307/time_series_forecasting_pytorch,417,high,3620,2017-10-19,2019-03-18,time series forecasting
+wzhwzhwzh0921/S-D-Mamba,404,high,669,2024-03-17,2025-05-20,time series forecasting
+vincent-leguen/DILATE,404,high,4817,2019-09-17,2020-10-14,time series forecasting
+natashaklingenbrunn/Transformer-Time-Series-Forecasting,402,high,83,2021-02-22,2021-06-08,time series forecasting
+Luciferbobo/KiT,375,high,2724,2026-09-28,2026-11-23,time series forecasting
+William-Liwei/EnergyPatchTST,373,high,21294,2025-04-05,2025-07-27,time series forecasting
+AI4HealthUOL/SSSD,335,high,896,2022-08-19,2025-05-24,time series forecasting
+kgmonkhin/ESRNN-GPU,317,high,78812,2018-11-06,2019-09-02,time series forecasting
+GestaltCogTeam/STID,313,high,2753,2022-05-29,2025-03-06,time series forecasting
+yangwohenmai/TimeSeriesForecasting,301,high,61,2018-12-15,2020-11-30,time series forecasting
+Secilia-Cxy/SOFTS,293,high,3410,2024-04-20,2025-07-07,time series forecasting
+DataCanvasIO/HyperTS,291,high,7991,2021-11-15,2025-04-17,time series forecasting
+Keytoyze/VisionTS,289,high,3351,2024-08-26,2025-08-13,time series forecasting
+William-Liwei/SWIFT,287,high,7049,2025-03-08,2025-06-25,time series forecasting
+lss-1138/SparseTSF,282,high,2330,2024-03-27,2026-10-22,time series forecasting
+PYFTS/pyFTS,278,high,66265,2015-11-17,2024-08-02,time series forecasting
+emadeldeen24/TSLANet,272,high,313,2024-04-12,2024-09-15,time series forecasting
+thuml/AutoTimes,269,high,11587,2024-02-20,2025-07-22,time series forecasting
+amazon-science/unconditional-time-series-diffusion,262,high,764,2023-11-09,2024-01-30,time series forecasting
+bighuang624/DSANet,261,high,733,2019-08-21,2024-06-17,time series forecasting
+KasperGroesLudvigsen/influenza_transformer,260,high,375,2022-05-12,2022-10-18,time series forecasting
+plumprc/MTS-Mixers,253,high,1057,2022-09-17,2025-07-21,time series forecasting
+aikunyi/FourierGNN,251,high,21,2023-10-23,2024-02-22,time series forecasting
+thuml/Koopa,245,high,3102,2023-08-22,2024-07-01,time series forecasting
+WenjieDu/TSDB,244,high,302,2022-04-01,2026-10-26,time series forecasting
+XiongxiaoXu/SST,235,high,18405,2024-04-18,2025-11-16,time series forecasting
+qianlima-lab/time-series-ptms,231,high,155859,2022-03-31,2024-10-07,time series forecasting
+Hank0626/TimeBridge,229,high,291,2024-09-28,2025-05-16,time series forecasting
+aikunyi/FilterNet,227,high,80,2024-11-03,2026-03-11,time series forecasting
+carlomazzaferro/scikit-hts,226,high,272,2019-11-23,2023-05-12,time series forecasting
+YoZhibo/MSGNet,224,high,892,2023-12-30,2024-02-11,time series forecasting
+Atik-Ahamed/TimeMachine,222,high,236,2024-03-19,2024-07-27,time series forecasting
+microsoft/ProbTS,211,high,13910,2023-10-10,2026-04-08,time series forecasting
+Zeying-Gong/PatchMixer,211,high,2246,2023-10-08,2024-06-27,time series forecasting
+CVxTz/time_series_forecasting,204,high,171,2021-05-11,2022-01-15,time series forecasting
+ditschuk/pytorch-tsmixer,202,high,20,2023-11-17,2023-12-12,time series forecasting
+aikunyi/FreTS,201,high,3398,2023-10-23,2024-03-26,time series forecasting
+tblume1992/ThymeBoost,199,high,7767,2021-09-12,2026-01-11,time series forecasting
+romilbert/samformer,192,high,562,2024-02-07,2025-06-05,time series forecasting
+muslehal/xLSTMTime,188,high,48084,2024-07-13,2024-11-25,time series forecasting
+daydreamer-amelia/From_News_to_Forecast,187,high,535427,2024-10-03,2024-10-30,time series forecasting
+albertogaspar/dts,184,high,1080,2019-08-06,2023-04-20,time series forecasting
+chaoshangcs/GTS,178,high,42474,2021-01-18,2021-11-30,time series forecasting
+ChenxiLiu-HNU/TimeCMA,172,high,111,2024-12-18,2025-12-08,time series forecasting
+Hank0626/CALF,168,high,5744,2024-03-12,2025-03-14,time series forecasting
+BennyTMT/LLMsForTimeSeries,163,high,4029,2024-04-17,2025-06-25,time series forecasting
+GuoKent/Hybrid_time_series_forecasting_model,155,high,73896,2023-08-03,2023-08-03,time series forecasting
+PatchTST/PatchTST,153,high,3070,2022-11-07,2023-02-09,time series forecasting
+PlaytikaOSS/tft-torch,152,high,11138,2021-11-28,2024-02-18,time series forecasting
+heidelbergcement/hcrystalball,149,high,11386,2020-06-29,2024-02-21,time series forecasting
+CollinRooney12/htsprophet,145,high,88,2017-07-28,2021-02-05,time series forecasting
+DC-research/TEMPO,143,high,1904,2024-04-01,2025-02-23,time series forecasting
+lss-1138/SegRNN,142,high,854,2023-08-16,2026-02-23,time series forecasting
+CityMind-Lab/ICML25-TimeVLM,141,high,16910,2025-05-26,2026-06-06,time series forecasting
+TROUBADOUR000/AMD,141,high,1860,2024-06-06,2025-03-19,time series forecasting
+usail-hkust/t-PatchGNN,141,high,119364,2024-05-27,2025-11-28,time series forecasting
+ServiceNow/TACTiS,141,high,2951,2022-05-18,2024-05-03,time series forecasting
+ForestsKing/GLAFF,141,high,1065,2024-04-19,2026-05-17,time series forecasting
+pedrolarben/TimeSeriesForecasting-DeepLearning,139,high,524031,2020-06-04,2021-09-02,time series forecasting
+hihihihiwsf/AST,138,high,24,2020-10-20,2022-01-05,time series forecasting
+chinuy/stock-price-prediction,20,low,342,2017-04-10,2017-09-11,stock price prediction
+zzp1012/tesla-stock-prediction,20,low,3189,2020-11-15,2021-10-20,stock price prediction
+Akshat2430/Stock-Market-Analysis-And-Price-Prediction,20,low,162,2021-01-23,2021-01-24,stock price prediction
+gyanesh-m/Event-embedding-stock-prediction,19,low,16,2017-12-12,2018-02-12,stock price prediction
+blurred-machine/RNN-based-Stock-Price-Prediction-using-LSTM,18,low,3364,2020-05-01,2020-05-01,stock price prediction
+Csun1992/SVM-stock-return-prediction,18,low,1370,2018-11-04,2019-02-22,stock price prediction
+ankitesh97/StockPredictionWithSentiment,17,low,431,2017-11-05,2019-12-25,stock price prediction
+florist-notes/Stock_Prediction,17,low,3316,2017-10-28,2017-11-15,stock price prediction
+ngaiyin1760/LSTM-model-stock-price-movement-prediction-,16,low,920,2020-06-20,2020-06-20,stock price prediction
+AbhishekRDJ/Stock-Price-Prediction-Using-Machine-Learning,16,low,57,2024-11-17,2024-11-17,stock price prediction
+personal-coding/Stock-Market-Prediction-Forecasting-Price-Movements-using-Technical-Indicators,16,low,40193,2019-11-27,2023-04-06,stock price prediction
+oberoidhruv/dash-stock-price-prediction,16,low,18,2019-01-06,2022-07-28,stock price prediction
+merklefruit/Stock-Price-prediction-with-RNN,16,low,1461,2019-11-25,2023-10-25,stock price prediction
+azvast/stock-price-prediction-by-LSTM,16,low,526,2022-06-17,2022-06-17,stock price prediction
+stabgan/Recurrent-Neural-Networks-to-predict-Google-Stock-Price,15,low,1239,2018-02-15,2026-03-14,stock price prediction
+Moozzart/Meyer-Packard-Genetic-Algorithm-for-Prediction-of-Stock-Prices-and-Performances,15,low,87,2020-09-02,2020-09-02,stock price prediction
+quantium-ai/patternity,15,low,13,2024-07-26,2024-07-26,stock price prediction
+Mechres/Price-Predict,14,low,788,2024-05-30,2026-03-13,stock price prediction
+stanislavkononiuk/Stock-Price-Prediction-LSTM,14,low,41,2023-06-26,2023-08-15,stock price prediction
+jroell/StockMarketPredictionsWithRNN,13,low,29,2017-07-03,2023-07-05,stock price prediction
+parthlathiya12/Stock-Market-Price-Prediction,12,low,2797,2016-11-19,2020-05-23,stock price prediction
+sumitjoshi21/NSE-Real-Time-Stocks-Analysis-and-Predictions-Using-Python-LSTM-Model,12,low,439,2020-05-20,2023-03-24,stock price prediction
+fomhko/stock_net,12,low,582918,2018-08-10,2018-11-19,stock price prediction
+shrddha-p-jain/Stock-Price-Prediction-App,12,low,3565,2021-11-18,2021-11-19,stock price prediction
+TapasSenapati/StockPrediction,11,low,8907,2013-10-03,2016-04-02,stock price prediction
+as3445/NuPIC-Stock-Prediction,11,low,12268,2015-06-02,2015-06-02,stock price prediction
+dyccolin/MATCC,11,low,55103,2024-11-08,2024-10-22,stock price prediction
+HouchangX-AI/Stock-Price-Prediction-using-Hidden-Markov-Model,11,low,200,2020-01-13,2020-01-13,stock price prediction
+Lakshya-Ag/Streamlit-Dashboard,11,low,2056,2021-02-27,2021-09-26,stock price prediction
+naveenkumar07761-collab/tesla-stock-price-prediction-using-lstm,11,low,9,2026-04-04,2026-06-12,stock price prediction
+henriwoodcock/Stock-Price-Prediction,10,low,1086,2019-08-05,2020-11-20,stock price prediction
+YC-Coder-Chen/GRU-stock-price-prediction,10,low,344,2019-09-04,2019-09-04,stock price prediction
+withharsh/Stock-Price-prediction-using-long-short-term-memory,10,low,1005,2018-07-23,2018-10-18,stock price prediction
+arleigh418/How-Much-News-Should-We-Extract-For-Stock-Price-Prediction,10,low,66303,2020-01-26,2020-05-11,stock price prediction
+MirandaLLLL/TCN-in-stock-prices-prediction,10,low,9,2022-04-02,2022-10-11,stock price prediction
+codelyc/stock-prediction,10,low,15727,2026-01-30,2026-02-03,stock price prediction
+safteinzz/AITradeTrendTracker,10,low,1833,2021-11-14,2026-07-23,stock price prediction
+jdank417/Deep-Learning-for-Stock-Market-Predictions,10,low,183907,2024-06-07,2024-07-11,stock price prediction
+abidsgx/Machine-Learning-Model-for-Stock-Market,10,low,44,2026-08-28,2026-09-01,stock price prediction
+enessinanparildi/Improving-Time-Series-Prediction-Using-Empirical-Mode-Decomposition,10,low,1295,2023-12-10,2025-02-22,stock price prediction
+kevincwu0/rnn-google-stock-prediction,9,low,68,2017-08-27,2017-09-04,stock price prediction
+JanviBagrecha/Stock-prediction,9,low,328,2023-05-06,2023-11-24,stock price prediction
+Frid0l1n/Random-Forest,9,low,138640,2022-02-05,2024-08-29,stock price prediction
+charurawat/deeplearning-stock-mkt-prediction,9,low,1356,2019-03-19,2019-07-07,stock price prediction
+luanft/lstm-cnn-model,9,low,15,2020-10-05,2020-10-12,stock price prediction
+RyanWangZf/StockPricePrediction,9,low,15753,2018-12-26,2019-01-03,stock price prediction
+singh-rounak/LLM-Stock-Price-Prediction,9,low,7,2024-08-31,2026-06-10,stock price prediction
+ahmad-masud/surge,9,low,2063,2024-02-01,2026-08-29,stock price prediction
+Sumirmat97/Stock-Price-Prediction,8,low,9983,2018-10-28,2023-07-06,stock price prediction
+jjasonn0717/pred_finance,8,low,2046,2016-08-24,2016-08-31,stock price prediction
+LeeSinLiang/Predict-Stock-Price-With-Linear-Regression,8,low,233,2020-03-30,2023-05-15,stock price prediction
+DavideMerlin/Stock_Price_Predictor,8,low,43,2019-05-27,2021-09-07,stock price prediction
+RilaShu/stock-price-prediction-deep-learning,8,low,175,2019-02-19,2019-02-21,stock price prediction
+ksangeeta2429/Stock_Predictions,8,low,61,2017-04-05,2017-04-05,stock price prediction
+rkshaon/StockPricePrediction,8,low,131,2024-04-22,2024-07-15,stock price prediction
+GavinGuan95/Stock-Price-Prediction-CNNLSTM,8,low,51107,2020-04-05,2020-10-31,stock price prediction
+Never-github/stock-prediction-with-LSTM-DNN,8,low,2077,2021-02-28,2021-03-04,stock price prediction
+i-sultan/Smart-Trader,8,low,10027,2016-08-10,2016-08-15,stock price prediction
+M3robot/Neural-Network-for-time-series-prediction,8,low,891,2019-03-30,2019-03-30,stock price prediction
+Skythianos/Stock-Market-Time-Series-Data-Mining-Using-Deep-Learning-Algorithms,8,low,7,2017-11-04,2017-11-04,stock price prediction
+yogendradayal/stockpulse,8,low,15,2025-04-27,2025-04-27,stock price prediction
+quantgalore/stock-range-prediction,7,low,3,2023-04-09,2023-04-09,stock price prediction
+Sabareh/stock-price-prediction-spark-cassandra,7,low,17,2023-04-30,2024-01-01,stock price prediction
+Adarsh-S-KT/Stock-App,7,low,3177,2022-01-20,2022-06-11,stock price prediction
+kuantuna/SPDPvCNN,7,low,3099483,2021-10-18,2022-07-05,stock price prediction
+hemil26/Stock-Price-Prediction-App,7,low,370,2022-01-09,2022-01-09,stock price prediction
+estebanvz/crypto_prediction,7,low,206,2022-02-25,2022-04-11,stock price prediction
+SreeramV181/Quantum-Generative-Adversarial-Networks-for-Stock-Price-Prediction,7,low,205,2019-05-28,2019-06-09,stock price prediction
+shahriar-rahman/Google-Stock-Market-Prediction-using-LSTM,7,low,1574,2023-07-19,2023-07-24,stock price prediction
+dchandak99/LSTM_isb,7,low,540,2020-01-09,2020-06-17,stock price prediction
+Arenaa/stock-market-price-prediction,7,low,130,2023-04-10,2023-04-11,stock price prediction
+swetha630/Stock-price-prediction,7,low,12,2025-04-27,2025-08-09,stock price prediction
+DavideRoznowicz/Stock-Transformer,7,low,17462,2021-12-26,2021-12-26,stock price prediction
+amoghmalik/investobot_public,7,low,5,2016-03-05,2018-04-28,stock price prediction
+swapnil-tanpure23/Stock-Market-Prediction-Using-AI,7,low,3,2022-06-28,2022-06-28,stock price prediction
+jasonx1011/stock-tensorflow,7,low,2069,2017-11-22,2017-12-17,stock price prediction
+bsanket16/stock-prediction,6,low,1196,2021-05-25,2021-05-31,stock price prediction
+kwoshvick/NSE-Stock-Price-Prediction,6,low,187,2017-10-16,2021-10-12,stock price prediction
+austin-liu-yang/StockPricePrediction,6,low,325033,2017-04-26,2017-05-10,stock price prediction
+mrqasimasif/Linear-Regression-Stock-Price-Prediction,6,low,6,2020-04-09,2020-10-30,stock price prediction
+var97/Stock-Trend-Prediction,6,low,11,2018-06-22,2018-06-22,stock price prediction
+nassrkhan/Stock-Market-Analyzer,6,low,545,2023-06-17,2023-06-17,stock price prediction
+Anastaria/Stock_Prediction,6,low,27,2018-12-29,2018-12-29,stock price prediction
+kochlisGit/LSTM-Stock-Predictions,6,low,9332,2021-03-30,2022-03-17,stock price prediction
+fulifeng/FreqNet_,6,low,32184,2021-10-29,2021-10-31,stock price prediction
+diovisgood/index,6,low,96278,2019-04-14,2019-04-16,stock price prediction
+carlomarquez-ai/stock-price-prediction,6,low,160,2025-10-19,2025-10-21,stock price prediction
+prnvg/Stock-Price-Prediction,6,low,108,2017-06-24,2017-06-24,stock price prediction
+nemitha2005/stock-price-prediction-model,6,low,4077,2025-08-18,2025-08-18,stock price prediction
+stylepatrick/trading-price-prediction,6,low,292,2021-03-19,2021-03-19,stock price prediction
+Tejashri-Chavan/Apple-Stock-Prediction,6,low,4,2023-11-06,2023-11-18,stock price prediction
+HaodongBAI/EventCausalityNetworks,6,low,13615,2021-04-28,2021-05-06,stock price prediction
+nikhilkomari24/Apple_Stock_Prediction,6,low,49,2020-07-03,2020-07-03,stock price prediction
+DeapProphet/Stock-Prediction-Suite,6,low,372,2025-12-18,2026-01-16,stock price prediction
+serlaluz/prophet-prediction-app,6,low,292,2020-07-04,2022-12-08,stock price prediction
+Paratyaksh03/Stock-Predictor-LSTM,6,low,40,2019-01-07,2019-05-29,stock price prediction
+Ali-hey-0/forecast-Attention-Model,6,low,4256,2025-09-02,2025-09-02,stock price prediction
+mehrdad-zade/portfolioGPT,6,low,4711,2023-06-26,2023-07-20,stock price prediction
+KNFO-MIMUW/Stock_Prices_Prediction,5,low,14328,2018-11-14,2019-05-20,stock price prediction
+a-bean-sprout/XGBoost_StockPricePredict,93,mid,24,2020-06-14,2020-06-14,stock price prediction
+ZiJing-Lu/Stock-price-prediction-based-on-online-public-opinion-sentiment-analysis,85,mid,9431,2024-05-21,2024-05-21,stock price prediction
+sammanthp007/Stock-Price-Prediction-Using-KNN-Algorithm,81,mid,47702,2017-04-14,2022-06-21,stock price prediction
+ssatia/strtsmrt,72,mid,103680,2016-09-15,2017-03-30,stock price prediction
+TatevKaren/recurrent-neural-network-pricing-model,61,mid,12731,2021-03-23,2023-11-02,stock price prediction
+vishwajeetv/stock_prediction,58,mid,391,2016-01-13,2021-05-03,stock price prediction
+shabh2412/stock_price_prediction_application,55,mid,151,2021-03-20,2022-02-08,stock price prediction
+ZxZ7/ZFundPredictor,51,mid,4394,2020-03-29,2020-11-07,stock price prediction
+UWFlex/stock-prediction,49,mid,154,2018-03-07,2020-10-15,stock price prediction
+xraptorgg/FinBERT-LSTM,48,mid,971,2022-12-20,2022-12-20,stock price prediction
+jaiminsanghvi/Analysing-Stock-Market-Movements-Using-Twitter-Sentiment-Analysis,48,mid,5133,2016-05-06,2016-05-06,stock price prediction
+mirzayasirabdullahbaig07/StockMarket-Trend-Prediction-Model,47,mid,2122,2025-09-26,2025-09-30,stock price prediction
+z33pX/Stock-Price-Prediction-With-Indicators,43,mid,5566,2017-10-18,2019-04-20,stock price prediction
+TruongNV-hut/AIcandy_LSTM_Stock_iiyiedys,43,mid,705,2024-09-18,2024-09-18,stock price prediction
+dukuanbing/bpnn-stock-price-prediction,40,mid,41,2020-09-19,2020-05-30,stock price prediction
+hfwebbed/Stock-Option-Analytics,40,mid,122792,2019-06-25,2025-08-01,stock price prediction
+PranavM98/Prediction-of-Stock-Prices---Dash-App,39,mid,78,2020-11-23,2020-11-24,stock price prediction
+ffRunKey/lightgbm_BiLSTM,39,mid,14991,2022-04-09,2022-03-30,stock price prediction
+mltrev23/snp500_stock_prediction,37,mid,142947,2024-07-02,2024-09-16,stock price prediction
+melissa135/mlp_stock,36,mid,246,2017-06-05,2017-06-08,stock price prediction
+ashishpapanai/stockDL,36,mid,49182,2021-02-25,2021-11-22,stock price prediction
+gopikrsmscs/stock-price-prediction-transformer,34,mid,106,2024-02-21,2024-02-21,stock price prediction
+vikasharma005/Stock-Price-Prediction,33,mid,121,2023-08-19,2025-05-08,stock price prediction
+aisu-programming/Stock-Price-Prediction-6269-Flexium,32,mid,11664,2022-01-16,2022-03-15,stock price prediction
+vishal815/-Stock-market-Prediction-with-Machine-Learning-Django,31,mid,72697,2023-07-04,2023-07-05,stock price prediction
+quanzhou206/Stock-price-prediction,30,mid,1188,2021-07-10,2021-07-14,stock price prediction
+farismismar/Stock-Prediction,29,mid,85,2018-04-27,2022-09-11,stock price prediction
+NayakwadiS/NSE-Neuron,29,mid,37668,2026-03-14,2026-10-28,stock price prediction
+Shuqi-li/PEN,29,mid,53,2023-04-03,2023-04-03,stock price prediction
+Shandilya21/stock_movement_prediction,28,mid,334,2019-06-10,2023-06-07,stock price prediction
+Bob-AFei/Stock_Prediction,27,mid,513,2020-02-07,2021-01-27,stock price prediction
+moneygeek/lstm-stock-prediction,26,mid,19,2023-08-29,2023-09-15,stock price prediction
+neha01/NIFTY_50_STOCK_PREDICTION,25,mid,4844,2018-11-16,2020-07-01,stock price prediction
+gamzeakkurt/deep-learning-stock-prediction,25,mid,8880,2025-01-30,2026-03-31,stock price prediction
+Shybert-AI/Prediction-of-stock-price-based-on-BP-neural-network,25,mid,2015,2022-01-03,2025-03-09,stock price prediction
+JackDance/stock-price-prediction,24,mid,372,2021-10-22,2021-10-22,stock price prediction
+craigpmc/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis,24,mid,7940,2020-05-29,2020-05-29,stock price prediction
+jha-prateek/Stock-Prediction-RNN,23,mid,36021,2018-04-13,2018-04-13,stock price prediction
+GURPREETKAURJETHRA/LLM-based-Finance-Agent,23,mid,14,2024-09-09,2024-09-09,stock price prediction
+ESJavadex/elliot-waves-auto,23,mid,2872,2025-04-21,2026-01-06,stock price prediction
+fanannan/LPPL,22,mid,124,2015-04-05,2015-04-05,stock price prediction
+tamthuc1995/Events-Embedding-and-stock-price-prediction,21,mid,160036,2017-06-10,2017-06-21,stock price prediction
+MaherGebrail/Stock-Prediction-with-TimesFM,21,mid,101,2025-10-12,2025-10-18,stock price prediction
+rohitmore1012/StockStream,21,mid,207,2022-08-04,2024-10-25,stock price prediction
+bearbro/Stock_Price_Prediction_Model,21,mid,758614,2021-12-09,2021-12-09,stock price prediction
+githubguoheng/Stock-Price-Prediction-Project-Code,21,mid,450,2023-08-28,2023-09-04,stock price prediction
+kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis,891,high,38448,2020-06-13,2024-02-19,stock price prediction
+WayneDW/Sentiment-Analysis-in-Event-Driven-Stock-Price-Movement-Prediction,883,high,391260,2016-11-21,2024-07-15,stock price prediction
+dzitkowskik/StockPredictionRNN,829,high,4246,2015-11-26,2016-05-21,stock price prediction
+VivekPa/IntroNeuralNetworks,777,high,32,2018-09-10,2019-08-03,stock price prediction
+JordiCorbilla/stock-prediction-deep-neural-learning,690,high,56427,2020-07-01,2026-11-01,stock price prediction
+yacoubb/stock-trading-ml,675,high,25,2019-10-10,2022-05-18,stock price prediction
+NourozR/Stock-Price-Prediction-LSTM,617,high,38,2017-08-21,2023-03-30,stock price prediction
+tencia/stocks_rnn,445,high,10,2016-01-12,2016-06-16,stock price prediction
+wzchen/stock_market_prediction,349,high,932,2013-11-11,2013-12-13,stock price prediction
+vedic-partap/Event-Driven-Stock-Prediction-using-Deep-Learning,207,high,53850,2017-12-14,2019-10-28,stock price prediction
+krishnaik06/Stock-Price-Prediction-using-Keras-and-Recurrent-Neural-Networ,173,high,26,2018-07-06,2020-05-26,stock price prediction
+nayash/Stock-Price-Prediction,155,high,304,2019-03-15,2019-09-25,stock price prediction
+dhingratul/Stock-Price-Prediction,148,high,93,2017-07-10,2017-09-18,stock price prediction
+Ali-Meh619/SAMBA,133,high,1094,2024-09-01,2026-05-01,stock price prediction
+cristianpjensen/stock-market-prediction-via-google-trends,129,high,48155,2020-05-29,2023-05-22,stock price prediction
+liyinwei/copper_price_forecast,108,high,82,2017-05-25,2018-09-26,stock price prediction
+koa-fin/dva,107,high,5437,2023-09-04,2024-07-03,stock price prediction
+liorsidi/sp500-stock-similarity-time-series,102,high,25766,2018-01-08,2021-11-20,stock price prediction
+Fairy-09/FedSpecNet,17,low,175,2024-11-12,2026-02-02,energy consumption forecasting
+Coernel82/smartCharge4evcc,17,low,2199,2024-12-01,2025-02-03,energy consumption forecasting
+Fairy-09/FLSL,14,low,24,2024-05-19,2024-11-27,energy consumption forecasting
+Philippos01/mlops-energy-forecast-thesis,13,low,1440,2023-06-15,2023-07-07,energy consumption forecasting
+v1nybarreto/energy_consumption_forecasting,9,low,445456,2024-11-05,2024-11-05,energy consumption forecasting
+gdimitriou/lstm-time-series-forecasting,9,low,12,2020-05-24,2020-09-13,energy consumption forecasting
+kanch91/project-energy,8,low,51413,2020-11-26,2021-06-27,energy consumption forecasting
+swdn133/ecoproph,5,low,1011,2019-03-27,2020-01-22,energy consumption forecasting
+mwasifanwar/energyforecast-ai,4,low,30,2025-11-07,2025-11-07,energy consumption forecasting
+HARIHARANS24/energy_consumption_forecasting,4,low,2433,2025-05-27,2026-03-05,energy consumption forecasting
+prabhath-r/Forecasting-household-energy-consumption,4,low,121529,2023-11-04,2024-02-09,energy consumption forecasting
+BALADURGAG24/energy_consumption_forecasting-model,4,low,2459,2025-05-27,2026-03-05,energy consumption forecasting
+bahmed3/Energy_Consumption_Forecasting_for_Smart_Grids,4,low,204207,2024-06-24,2024-06-25,energy consumption forecasting
+charanpreetSingh123/Energy-Consumption-Optimization-Model-for-Factories,4,low,19136,2026-03-11,2026-06-27,energy consumption forecasting
+PythonToGo/energy-forecasting,4,low,61,2025-04-22,2026-06-09,energy consumption forecasting
+Jobinjoseph/swissgrid-energy-forecast,4,low,8829,2025-06-16,2025-06-23,energy consumption forecasting
+mohdmuneef/Digital-Twinning-for-Smart-Building-Management,4,low,16,2024-10-10,2024-10-10,energy consumption forecasting
+lightbluetitan/timeseriesdatasets-py,4,low,1722,2026-02-14,2026-02-23,energy consumption forecasting
+sehovaclj/Thesis-work_energy-forecasting,3,low,2772,2019-09-11,2019-09-17,energy consumption forecasting
+rebeccamarion/Energy_consumption_forecasting,3,low,17,2022-07-20,2022-09-15,energy consumption forecasting
+pittahasini/energy-optimization-ai-agent,3,low,1399,2026-10-12,2026-10-12,energy consumption forecasting
+Pedrom2002/energy-forecast-pt,3,low,52348,2025-10-13,2026-07-01,energy consumption forecasting
+jimenofonseca/DEG-USA,3,low,6843,2020-06-05,2020-06-16,energy consumption forecasting
+Soumilgit/AI_IA-2,3,low,3797,2025-04-18,2025-04-18,energy consumption forecasting
+Housiadas/forecasting-energy-consumption-LSTM,53,mid,1379,2019-11-16,2020-10-26,energy consumption forecasting
+alefunxo/Basopra,50,mid,9549,2018-12-04,2026-07-09,energy consumption forecasting
+Googol2002/Energy-Consumption-Forecasting,33,mid,4123,2022-09-13,2023-05-15,energy consumption forecasting
+ugoorji12/Load-Forecasting-using-GAT-LSTM,32,mid,55,2024-12-16,2025-09-22,energy consumption forecasting
+m-zenker/ha-energy-forecast,21,mid,9043,2026-02-27,2026-11-24,energy consumption forecasting
+pyae-pyae-phyo/Short-term-electricity-load-forecasting-using-long-short-term-memory,19,low,4466,2018-08-01,2018-08-06,electricity load forecasting
+wzyfrank/load_forecast,15,low,606,2017-10-04,2017-10-28,electricity load forecasting
+OlaPronobis/FleetChargingManagement,15,low,577880,2021-10-16,2022-06-13,electricity load forecasting
+shp38/Neural_network_ensemble_models_for_day_ahead_electricity_load_forecasting_in_buildings,10,low,134055,2021-05-03,2021-05-12,electricity load forecasting
+DeepNEU/Multi-User-Personality-Electricity-Load-Forecasting,9,low,10,2019-11-24,2019-11-25,electricity load forecasting
+anajevtic11/Multiple_linear_regression_for_load_forecasting,8,low,3019,2021-04-09,2021-04-09,electricity load forecasting
+saul-chirinos/Electricity-demand-forecasting-in-Panama,8,low,7680,2021-08-26,2021-09-01,electricity load forecasting
+palnabarun/Electricity-Load-Forecasting,7,low,12,2017-05-03,2017-05-04,electricity load forecasting
+dadapesrg/Electricity-Load-Forecasting,7,low,26979,2024-09-04,2025-09-12,electricity load forecasting
+alefunxo/BASOPRA_HP,7,low,80,2020-07-30,2025-05-26,electricity load forecasting
+zhengq01/Electricity-Load-Forecasting,5,low,28,2017-08-28,2017-08-28,electricity load forecasting
+davidedeltetto/fundamental-forecast-dashboard,5,low,5133,2026-09-07,2026-10-21,electricity load forecasting
+nasirayub12/InformationVisualizationProject,5,low,1384,2021-06-16,2021-06-16,electricity load forecasting
+aayushisinghgaharwar/Short_Term_Electricity_Load_Forecasting_Model,5,low,2337,2021-05-23,2021-05-23,electricity load forecasting
+alitiq/alitiq-py,5,low,146,2024-12-19,2026-10-15,electricity load forecasting
+BeheshteSadeghi/Electricity-Load-Forecasting-TimeSeries-_7Models,4,low,1684,2025-05-25,2025-06-30,electricity load forecasting
+HarshithK13/Deep-Learning-Approaches-for-Electricity-Demand-Forecasting-A-Comparative-Study-of-LSTM-and-N-BEATS,4,low,39877,2025-12-06,2025-12-06,electricity load forecasting
+Aftabgazali/quebec-load-forecasting,3,low,3025,2025-12-29,2025-12-29,electricity load forecasting
+sardarimohsen/Shahrekord-Electricity-Demand-Dataset,3,low,2678,2026-05-04,2026-11-13,electricity load forecasting
+shubhankarvyas/solar-and-load-forecasting-using-cnn-and-lstm,3,low,95849,2025-04-27,2025-04-28,electricity load forecasting
+noahj08/Load-Forcasting,3,low,9139,2019-10-23,2019-11-30,electricity load forecasting
+TzorAL/transfer-learning-forecasting,3,low,76,2023-11-20,2024-06-25,electricity load forecasting
+Yifeng-He/Electric-Power-Hourly-Load-Forecasting-using-Recurrent-Neural-Networks,89,mid,87,2016-12-02,2017-01-22,electricity load forecasting
+tylergibbs1/surge,27,mid,5623,2026-04-18,2026-10-28,electricity load forecasting
+lear-ner97/Transformer-LSTM-DAF,27,mid,5383,2024-05-29,2026-01-14,electricity load forecasting
+xiaoguozhi/paper_code,21,mid,545,2017-11-24,2017-12-06,electricity load forecasting
+Akkudoktor-EOS/EOS,1734,high,43194,2024-02-16,2026-11-24,electricity load forecasting
+Suhani2305/AirIndexAnalysis,15,low,10064,2025-04-02,2025-04-07,air quality prediction
+ECMWFCode4Earth/aq-biascorrection,12,low,4619,2021-05-17,2021-09-17,air quality prediction
+caciitg/Air-Quality-Index-Prediction,11,low,275,2021-06-08,2021-07-21,air quality prediction
+ananyaofficial2025-prog/Manisha_Airguard_India,11,low,2892,2026-10-22,2026-10-31,air quality prediction
+PAkash7/Heating-Air-Quality-Prediction,10,low,7430,2025-12-09,2025-12-09,air quality prediction
+abhikkonar05/Air-Quality-Prediction-Analysis-System,10,low,16761,2025-12-08,2025-12-21,air quality prediction
+KonduriMrunal/AIr-Quality-Index,10,low,231,2025-12-25,2025-12-25,air quality prediction
+MD-ALL-SHAHRIA/pulseair,10,low,25057,2026-09-22,2026-10-04,air quality prediction
+pestasu/IMMAir,9,low,97,2023-11-28,2024-11-19,air quality prediction
+SY-Ma/TFAN-a-Attention-based-network-for-Air-Quality-Prediction,8,low,1961,2023-02-14,2026-10-10,air quality prediction
+VikasKumar-53/India-Climate-Analysis-AQI-Prediction-2024-2025,8,low,188,2025-12-15,2025-12-15,air quality prediction
+zui0711/iflytek2021-AirQualityPrediction,6,low,136,2021-10-24,2021-11-02,air quality prediction
+Shallowgetter/Air_Quality_Prediction,5,low,1341,2025-03-12,2025-03-12,air quality prediction
+VDeepak21/AIR-QUALITY-PREDICTION,5,low,4,2024-11-26,2024-11-26,air quality prediction
+vipanchidixit/Air-Quality-Prediction-Using-ML-models,5,low,315,2024-06-06,2024-06-25,air quality prediction
+yash-dahima/CSE523-Machine-Learning-2023-Air-Quality-Prediction,5,low,19935,2023-04-14,2023-04-15,air quality prediction
+sifat6472/tinyml-air-quality-ventilation-system,5,low,10616,2026-04-05,2026-07-08,air quality prediction
+SarathiKrish/air-quality-prediction-ml,4,low,176,2025-05-05,2025-05-06,air quality prediction
+sarangkartikey50/Air-Quality-Prediction,4,low,5480,2018-06-05,2018-12-13,air quality prediction
+RohiBaner/Beijing-Air-Quality-Prediction,4,low,702,2019-03-04,2019-03-04,air quality prediction
+poreddyrithika/Air_Quality_Alert_Prediction-ConfusionMatrix,4,low,65,2026-01-06,2026-07-29,air quality prediction
+RuoxiangHuang/Quantum-Machine-Learning-Air-Quality-Prediction,4,low,1730,2025-04-29,2025-04-29,air quality prediction
+Ghaiyur/Manipal-Air-Quality-Sensing-and-Monitoring-through-PM-observations,4,low,13,2019-05-08,2019-05-08,air quality prediction
+nitin25ch8-sketch/AQI-Prediction-Web-Application,4,low,1785,2026-09-27,2026-09-27,air quality prediction
+irdegurtepe/regional_pm25_predictor,4,low,5894,2025-02-22,2025-02-22,air quality prediction
+adityajhakumar/AQI-RELATED-HEALTH-ISSUES,4,low,875,2024-03-17,2024-09-02,air quality prediction
+abishek3501/AirQualityPrediction-UCI,3,low,18,2018-07-21,2018-07-25,air quality prediction
+MartinRajniak/Air-Quality-Prediction,3,low,3948,2025-07-18,2026-10-19,air quality prediction
+Hacker-Sam-is-here/Air-Quality-Prediction,3,low,835,2024-12-23,2024-12-23,air quality prediction
+Polumm/LSTM_Prediction,3,low,13321,2023-07-08,2025-01-16,air quality prediction
+YanJun0821/analysis-and-prediction-of-urban-air-quality,3,low,3138,2018-07-24,2021-09-07,air quality prediction
+Faeze-Ahmadi/air-quality-prediction-pipeline,3,low,901,2025-12-11,2025-12-26,air quality prediction
+chaudhary-vivek/AirQualityIndex_Randomforest,3,low,21,2020-02-11,2020-02-11,air quality prediction
+danhdanhtuan0308/AQI-MLops,3,low,20056,2026-03-20,2026-06-08,air quality prediction
+osk7462/Air_Quallity_Index_Prediction,3,low,4942,2018-12-30,2018-12-30,air quality prediction
+atworkshashwat-sys/vaayu-darshiya-2.0,3,low,141262,2026-10-10,2026-11-15,air quality prediction
+nikunjdixit-ai/-Air-AQI-Prediction,3,low,96191,2026-07-10,2026-09-28,air quality prediction
+elahehsb/AI-driven-Air-Quality-Prediction-using-Meteorological-and-Pollution-Data,3,low,7,2024-07-24,2024-07-24,air quality prediction
+IhmeGroup/FIREMAP-100,3,low,217,2026-07-31,2026-08-02,air quality prediction
+Kumar8423/DeepAir,3,low,1269,2025-10-30,2025-12-18,air quality prediction
+iqrakhan07/Machine-Learning-Day-10-Projects,3,low,17,2026-08-04,2026-08-10,air quality prediction
+harshsharma5468/Delhi_AQI_prediction,3,low,444900,2026-02-11,2026-11-24,air quality prediction
+GestaltCogTeam/MGSFformer,73,mid,14,2023-02-06,2024-08-11,air quality prediction
+Okes2024/Air-Quality-Index-Prediction-Using-ML-and-IoT-Sensor-Data,69,mid,1799,2025-04-01,2025-10-14,air quality prediction
+aquafina2332/EMD-Transformer-BiLSTM,49,mid,995,2024-03-03,2024-03-03,air quality prediction
+kethmih/AirPhyNet,42,mid,14090,2023-09-13,2024-02-24,air quality prediction
+asurazl/EMD_BiLSTM,26,mid,60744,2021-08-19,2021-09-28,air quality prediction
+HPSCIL/MSTGAN-airquality-prediction,24,mid,3599,2024-01-20,2024-07-13,air quality prediction
+ahmedHashwa/AirQuality-NARX-CNN-LSTM,22,mid,9573,2022-08-13,2026-04-14,air quality prediction
+Akajiaku11/Air-Quality-Prediction-Model,125,high,117,2024-11-14,2025-12-27,air quality prediction
+jason0x43/jc-weather,20,low,3531,2013-04-15,2016-12-18,weather forecasting
+mkgeiger/rpi-weather-clock,20,low,10700,2022-05-01,2025-12-23,weather forecasting
+ign1teme/ml_preweather,20,low,1347,2024-03-05,2026-01-28,weather forecasting
+prl900/DeepWeather,19,low,359,2017-05-30,2019-04-26,weather forecasting
+marty-sullivan/pyndfd,19,low,47,2014-11-30,2018-10-22,weather forecasting
+BennyThink/pyweathercn,19,low,128,2018-05-23,2024-02-24,weather forecasting
+vwillcox/Inky-Impression-Weather-Station,19,low,557,2021-06-02,2023-05-28,weather forecasting
+PatrickESA/StormSurgeCastNet,19,low,2272,2024-04-05,2025-10-23,weather forecasting
+microsoft/SolarSeer,18,low,31,2025-09-02,2026-10-29,weather forecasting
+chr15m/print-weather,18,low,227,2025-07-30,2025-08-02,weather forecasting
+elidickinson/kidsweather,18,low,406,2025-05-27,2026-02-28,weather forecasting
+microsoft/ADAF,17,low,1319,2025-01-08,2025-01-09,weather forecasting
+jsubroto/5-day-weather-forecast,17,low,21,2018-04-15,2025-10-26,weather forecasting
+Graph-Machine-Learning-Group/peakweather-forecasting,17,low,65,2025-06-05,2026-02-05,weather forecasting
+mase1981/uc-intg-weather,17,low,1245,2025-08-04,2026-11-14,weather forecasting
+twolffpiggott/yr-cli,17,low,19346,2024-09-08,2024-10-13,weather forecasting
+xy1377660586/Fine-tuning-a-pre-trained-CNN-for-first-year-sea-ice-and-multi-year-sea-ice-cp-imagery-classificatio,17,low,6,2017-04-10,2017-04-10,weather forecasting
+vlmaksime/weather.gismeteo,16,low,228,2017-11-04,2023-12-02,weather forecasting
+dimasyotama/django-weather-app,16,low,307,2019-07-16,2024-01-15,weather forecasting
+IsmailAlaouiAbdellaoui/weather-forecasting-explainable-recurrent-convolutional-NN,16,low,37571,2020-09-17,2021-06-13,weather forecasting
+DAMO-DI-ML/WeatherODE,16,low,61,2024-09-18,2024-10-23,weather forecasting
+seleneledain/forest_drought_forecasting,16,low,171833,2023-05-02,2023-09-14,weather forecasting
+t0mer/py-weatheril,16,low,1251,2023-01-14,2026-09-29,weather forecasting
+sayurin/open_meteo_local,16,low,438,2026-04-04,2026-11-23,weather forecasting
+chrisb2/water-system,16,low,424,2017-12-16,2023-12-02,weather forecasting
+thuemah/heating_analytics,16,low,5869,2026-02-21,2026-10-06,weather forecasting
+E2OpenPlugins/e2openplugin-Foreca,15,low,4001,2011-10-28,2025-03-07,weather forecasting
+AadiXD200/polymarket-weather-bot,15,low,169,2026-04-05,2026-04-05,weather forecasting
+keebie81/Weather-Forecast-Cloud,15,low,1503,2017-05-31,2017-06-04,weather forecasting
+cambridge-mlg/otter,15,low,6652,2026-03-05,2026-11-09,weather forecasting
+uzzal2200/Weather-Aware-EV-Charging-Demand-Forecasting-and-Optimal-Scheduling-Using-Hybrid-Transformer-LSTM,15,low,18533,2026-04-11,2026-04-23,weather forecasting
+fmihpc/spacecast,15,low,1272,2024-10-02,2026-10-09,weather forecasting
+Hoffmann77/ha-dwd-precipitation,15,low,4667,2024-05-07,2026-11-24,weather forecasting
+safepay/ha_bom_australia,15,low,633,2025-11-16,2026-09-16,weather forecasting
+Ali-hey-0/forecast-fusion,15,low,12,2025-07-10,2025-07-10,weather forecasting
+MisaghMomeniB/tehran-weather-analysis,15,low,29,2024-11-09,2025-06-13,weather forecasting
+Allankw-dev/weather--app,15,low,40,2026-02-02,2026-10-14,weather forecasting
+Nelvinebi/Crop-Yield-Prediction-Using-Remote-Sensing-Weather-Data,15,low,90,2025-04-04,2026-03-20,weather forecasting
+mrebbert/1komma5-ha,15,low,38692,2026-02-28,2026-11-23,weather forecasting
+pysat/pysatSpaceWeather,14,low,6771,2020-08-13,2026-10-04,weather forecasting
+davidecavestro/arpa-veneto-weather,14,low,151,2024-12-08,2026-11-23,weather forecasting
+shengchaochen82/MetePFL,14,low,301,2023-01-22,2024-10-03,weather forecasting
+PandoroML/LOAF,14,low,56649,2025-12-19,2026-11-13,weather forecasting
+CabukEge/forecasting-power-generation,14,low,4418,2023-11-21,2024-08-29,weather forecasting
+MeteoSwiss/mlpp-lib,14,low,1634,2022-01-30,2026-10-27,weather forecasting
+chriguschneider/hass-meteoswiss-weather,14,low,1440,2026-08-26,2026-11-23,weather forecasting
+smartmannheim/smartmannheim,14,low,249,2026-04-24,2026-11-10,weather forecasting
+PiSmartTV/PiTV,14,low,1966,2020-02-22,2022-12-08,weather forecasting
+allenea/Forecast_Search_Wizard,14,low,83279,2019-09-06,2025-03-06,weather forecasting
+OmerZeyveli/Weather-Forecasting-AI-Model-with-METAR-Data,13,low,2656,2025-06-14,2025-06-19,weather forecasting
+Meteosource/pymeteosource,13,low,233,2021-09-15,2026-10-21,weather forecasting
+monosans/aiopygismeteo,13,low,10764,2021-11-12,2026-11-24,weather forecasting
+weiweilll/weather_forecasting,12,low,6,2023-10-24,2023-10-24,weather forecasting
+VGrabar/Weather-Prediction-NN,12,low,393,2022-08-03,2023-12-15,weather forecasting
+itsXactlY/webhook-orderhoe-feat.-dYdX-and-phemex,12,low,166,2022-08-11,2023-06-22,weather forecasting
+MaxHalford/bbc-weather-honolulu,12,low,15245,2021-03-06,2021-07-10,weather forecasting
+paolodeangelis/waybar-weather-tui,12,low,4704,2026-04-16,2026-04-20,weather forecasting
+italo-lombardi/Home-Assistant-WashWise,12,low,1676,2026-06-11,2026-11-20,weather forecasting
+monosans/pywttr,12,low,8142,2021-12-12,2026-11-24,weather forecasting
+jgodwinWX/gefs-plots,12,low,25387,2017-09-17,2019-08-10,weather forecasting
+nasa-fdl/flarenet,11,low,25973,2017-07-09,2018-04-04,weather forecasting
+saintdoresh/Weather-MCP-ClaudeDesktop,11,low,8,2025-03-16,2025-03-16,weather forecasting
+sipposip/simple-gcm-deep-learning,11,low,57,2019-02-22,2019-02-22,weather forecasting
+EvanSauter/Modeling-PV-Power-On-6yrs-Spatiotemporal-Data,11,low,18401,2023-03-31,2023-04-20,weather forecasting
+kitteltom/probabilistic-energy-forecasting,11,low,724,2021-10-04,2022-08-21,weather forecasting
+BingoDinkus/weather-dashboard,11,low,366,2019-09-03,2026-04-26,weather forecasting
+yannbellec/polymarket-weather-bot,11,low,636,2026-03-21,2026-05-21,weather forecasting
+LoveBootCaptain/WeatherPi,11,low,230,2016-09-02,2018-02-10,weather forecasting
+Climdyn/pythie,11,low,14752,2021-04-22,2026-05-02,weather forecasting
+Chiragj2003/Weather-Alert-Project,11,low,6,2024-03-16,2024-03-17,weather forecasting
+dibend/thermohash,11,low,2513,2024-10-16,2026-05-26,weather forecasting
+rossshannon/weekly-weather-mcp,10,low,1774,2025-04-08,2026-01-16,weather forecasting
+DylanGore/PyMetEireann,10,low,42,2020-08-28,2026-03-25,weather forecasting
+MihirM9/polymarket-weather-bot,10,low,569,2026-03-24,2026-09-14,weather forecasting
+RKNITH/weather-forecasting,10,low,0,2025-03-15,2025-03-15,weather forecasting
+FromWau/WeatherScraper,10,low,61,2022-10-14,2025-04-01,weather forecasting
+Shubham1919284/WeatherWise,10,low,173,2025-06-29,2025-09-07,weather forecasting
+anasalyyy/realtime-weather-analysis,10,low,19,2025-04-09,2025-04-12,weather forecasting
+skyl4rk/JS8Call-WX_Server,10,low,119,2022-06-09,2022-09-10,weather forecasting
+Bhushan2318/sih-main,10,low,15260,2026-08-28,2026-11-24,weather forecasting
+mutlutekir/mgm-weather,10,low,1231,2026-04-07,2026-11-17,weather forecasting
+monosans/pygismeteo,10,low,7100,2021-11-12,2026-11-24,weather forecasting
+sagnik1511/samay_yantra,10,low,118,2022-05-26,2022-06-29,weather forecasting
+siku2/hass-srf-weather,9,low,100,2020-02-19,2025-11-24,weather forecasting
+timlynar/Containerized-Forecasting-Workflow,9,low,66,2017-09-11,2017-10-01,weather forecasting
+kipe/fmi,9,low,2733,2015-08-26,2026-10-26,weather forecasting
+OpenEarthLab/FengWu-Adas,9,low,1461,2024-10-16,2025-01-14,weather forecasting
+tvonich/gc-initial-condition-optimization,9,low,59,2026-03-05,2026-04-28,weather forecasting
+RubelAhmed10082000/CragWeatherDatabase,9,low,89569,2025-05-29,2025-10-02,weather forecasting
+ztarsoly/ha-idokep-weather-and-forecast,9,low,504,2026-10-30,2026-11-23,weather forecasting
+taghack/meshtastic-bot,9,low,39,2025-08-28,2025-08-28,weather forecasting
+PBarde/IBoat-PMCTS,9,low,107442,2017-10-04,2019-12-11,weather forecasting
+LiBe-net/ha_pv_history_forecast,9,low,471,2026-03-23,2026-08-06,weather forecasting
+BallesJr/polymarket-weather-edge,9,low,26248,2026-04-19,2026-11-24,weather forecasting
+qwertypool/Python-Personal-Desktop-Assistant,9,low,19,2020-06-10,2023-05-22,weather forecasting
+syamkarni/Weather_application-BBC_api,9,low,10,2024-02-24,2024-03-08,weather forecasting
+jazzmine-p/smart-energy-app,9,low,732,2023-11-18,2024-10-07,weather forecasting
+NikhileshShah01/Weather-Forecasting,8,low,10127,2021-11-13,2025-08-28,weather forecasting
+o-waring/subseasonal_forecasting,8,low,13970,2020-07-23,2020-08-10,weather forecasting
+BruceBinBoxing/Deep_Learning_Weather_Forecasting,95,mid,20324,2018-11-17,2023-03-24,weather forecasting
+briis/weatherflow_forecast,94,mid,1528,2023-09-17,2026-11-23,weather forecasting
+seominseok0429/Masked-Autoregressive-Model-for-Weather-Forecasting,93,mid,110,2023-03-13,2024-12-19,weather forecasting
+juaAI/stationbench,90,mid,691713,2025-01-09,2025-07-01,weather forecasting
+ecmwf/anemoi-datasets,88,mid,14126,2024-03-25,2026-11-24,weather forecasting
+Clarmy/pangu-weather-verify,80,mid,154,2023-07-14,2024-03-05,weather forecasting
+petergridge/openweathermaphistory,78,mid,613,2021-05-22,2026-11-03,weather forecasting
+deepsphere/deepsphere-weather,74,mid,781776,2021-03-15,2022-12-06,weather forecasting
+xarray-contrib/xwrf,70,mid,3201,2021-10-06,2026-11-02,weather forecasting
+fengyang95/AIC_Weather_Forecasting,69,mid,136461,2018-11-24,2018-11-24,weather forecasting
+oasis6212/Meshbot_weather,67,mid,3097,2025-06-28,2026-05-29,weather forecasting
+nicolastinkl/hermes_weatherbot,66,mid,809,2026-04-18,2026-04-18,weather forecasting
+MAIF/meteole,65,mid,1019,2024-12-02,2026-11-01,weather forecasting
+Earth-Intelligence-Lab/LocalizedWeather,62,mid,113,2024-10-14,2026-03-29,weather forecasting
+tsunglung/OpenCWB,62,mid,3291,2021-05-06,2026-03-03,weather forecasting
+liangleslie/nea_sg_weather,59,mid,491,2021-11-06,2026-11-10,weather forecasting
+joanpc/XplaneNoaaWeather,58,mid,3741,2011-12-30,2021-04-23,weather forecasting
+jschiefner/photovoltaic-power-prediction,58,mid,79,2019-07-29,2021-04-30,weather forecasting
+scaine1/pyWRF,57,mid,270,2012-11-28,2021-09-07,weather forecasting
+sftekin/spatio-temporal-weather-forecasting,55,mid,607,2020-06-09,2024-01-10,weather forecasting
+microsoft/WeatherReal-Benchmark,52,mid,158,2024-05-09,2026-10-28,weather forecasting
+jagoosw/getgfs,50,mid,3037,2021-02-19,2024-07-28,weather forecasting
+maxxxzdn/mosaic,49,mid,3790,2026-05-03,2026-09-04,weather forecasting
+Dogiye12/Weather-Report-Sentiment-Analyzer,49,mid,7,2025-05-26,2025-08-10,weather forecasting
+Unidata/python-awips,48,mid,192644,2015-06-12,2026-10-27,weather forecasting
+Rose-STL-Lab/u-cast,47,mid,171,2026-04-13,2026-06-05,weather forecasting
+kayhendriksen/foehn,46,mid,4345,2026-03-18,2026-11-23,weather forecasting
+ecmwf/anemoi-inference,44,mid,6126,2024-04-15,2026-11-24,weather forecasting
+sksoumik/Forecasting-Weather-Using-Machine-Learning,43,mid,231,2018-09-17,2021-01-10,weather forecasting
+scolby33/weather_kindle,43,mid,1142,2016-11-21,2025-01-26,weather forecasting
+Pranitha-07/Smart-Agriculture-Data-Visualization-Platform-,43,mid,334,2026-01-01,2026-06-12,weather forecasting
+yuki4266/yuki4266,42,mid,491,2026-06-17,2026-11-24,weather forecasting
+martinandrae/Continuous-Ensemble-Forecasting,41,mid,118693,2024-06-19,2025-06-25,weather forecasting
+hestiaFB/hestia-weather-integration,41,mid,14628,2026-10-09,2026-11-24,weather forecasting
+adhikasp/mcp-weather,39,mid,20,2025-01-01,2025-01-01,weather forecasting
+meteofrance/py4cast,38,mid,12723,2024-05-16,2025-11-19,weather forecasting
+wimagguc/tf-weather,38,mid,76,2018-08-01,2026-02-15,weather forecasting
+damianinsua/WRF-WVTs,37,mid,1641,2020-09-21,2024-06-01,weather forecasting
+FL550/simple_dwd_weatherforecast,36,mid,2106,2020-07-01,2026-10-24,weather forecasting
+DongGeun-Yoon/DGDM,36,mid,1733,2023-11-30,2024-11-06,weather forecasting
+zhaoshan2/pangu-pytorch,34,mid,13643,2023-10-28,2024-10-30,weather forecasting
+DJAkbar/cloudy-a,34,mid,9,2016-08-28,2019-03-24,weather forecasting
+TrafficGCN/ST-GCN,34,mid,1002321,2023-08-01,2026-10-17,weather forecasting
+Wx-Alliance-Alliance-Meteo/paradis_model,33,mid,1088,2024-12-10,2026-10-08,weather forecasting
+narayansumit11/Smart-Agriculture-System-using-IoT,31,mid,19367,2020-05-29,2020-08-21,weather forecasting
+rafael-fu2025/SeaSID,31,mid,10383,2026-07-10,2026-09-19,weather forecasting
+gonzaloplaza/python-weather-forecast,30,mid,54,2017-01-28,2017-01-28,weather forecasting
+Okes2024/Renewable-Energy-Output-Forecasting..,30,mid,12,2025-07-19,2025-07-19,weather forecasting
+ChrisBrown46/SolarEnergyPrediction,29,mid,45679,2019-12-12,2020-02-28,weather forecasting
+black-yt/ExtremeCast,28,mid,29044,2024-01-25,2026-03-17,weather forecasting
+vathsalvathsa/weather-forecasting-and-climate-analytics,28,mid,10214,2026-11-02,2026-11-12,weather forecasting
+tonyzyl/ladcast,27,mid,9441,2025-06-08,2026-03-04,weather forecasting
+weather-witch-lab/ai-model,27,mid,150226,2025-01-15,2025-01-15,weather forecasting
+elpahlevi/pyWRF-automation,26,mid,59,2020-10-06,2024-02-11,weather forecasting
+ElliotGarbus/MagtagWeatherClock,26,mid,20,2022-09-20,2023-02-23,weather forecasting
+iamrakesh28/Deep-Learning-for-Weather-and-Climate-Science,25,mid,18452,2020-09-23,2021-06-01,weather forecasting
+PredictionMarketTrader/openthomas,25,mid,7048,2026-07-03,2026-09-12,weather forecasting
+stoppegp/ha-dwd-precipitation-forecast,25,mid,57,2024-05-31,2026-10-22,weather forecasting
+wavestoweather/enstools,25,mid,2366,2021-07-31,2025-05-29,weather forecasting
+HuskyNian/HR-Extreme,25,mid,12751,2024-06-06,2025-04-22,weather forecasting
+earthobservations/gribmagic,24,mid,414,2020-12-18,2021-10-24,weather forecasting
+agstack/OpenAgri-WeatherService,23,mid,189,2024-06-13,2026-08-06,weather forecasting
+stockeh/swift,23,mid,10990,2025-09-25,2025-10-15,weather forecasting
+nmcdev/CMA-AIM-GFS-Fengqing,23,mid,13,2024-11-04,2025-02-24,weather forecasting
+karimosman89/traffic-flow-prediction,23,mid,4455,2024-09-28,2024-10-01,weather forecasting
+MycroftAI/skill-weather,22,mid,860,2017-04-04,2022-12-08,weather forecasting
+tung-nd/omnicast,22,mid,13,2025-10-20,2025-11-23,weather forecasting
+SauravBhattarai19/MRRpy,22,mid,25395,2026-05-08,2026-11-20,weather forecasting
+seominseok0429/W4C22-Simple-Baseline-for-Weather-Forecasting-Using-Spatiotemporal-Context-Aggregation-Network,21,mid,9853,2022-11-22,2023-06-23,weather forecasting
+mb-Ma/HiSTGNN,21,mid,1290,2023-07-25,2026-01-26,weather forecasting
+yingtaoluo/PhyDL-NWP,21,mid,11384,2023-11-22,2025-07-22,weather forecasting
+lds133/weather_landscape,1826,high,6683,2024-09-20,2026-03-27,weather forecasting
+KartoffelToby/better_thermostat,1578,high,18068,2021-10-30,2026-11-20,weather forecasting
+suislanchez/polymarket-kalshi-weather-bot,845,high,1058,2026-02-10,2026-03-02,weather forecasting
+ecmwf-lab/ai-models,606,high,156,2023-05-12,2026-08-06,weather forecasting
+NCAR/wrf-python,503,high,40568,2016-05-23,2026-11-17,weather forecasting
+ZeevG/python-forecast.io,423,high,2052,2013-04-24,2023-07-27,weather forecasting
+openclimatefix/graph_weather,305,high,6759,2022-02-21,2026-11-23,weather forecasting
+google-research/weatherbenchX,277,high,1373,2024-11-29,2026-11-23,weather forecasting
+pangeo-data/climpred,258,high,61686,2017-09-16,2026-11-16,weather forecasting
+nci/scores,238,high,23613,2023-05-31,2026-11-23,weather forecasting
+poblabs/weewx-belchertown,226,high,10180,2018-08-21,2026-11-23,weather forecasting
+YuanGao-YG/OneForecast,216,high,16462,2025-02-01,2026-08-21,weather forecasting
+HaxyMoly/Pangu-Weather-ReadyToGo,216,high,1660,2023-07-08,2023-07-27,weather forecasting
+nmcdev/meteva,203,high,433121,2019-06-03,2026-02-25,weather forecasting
+tpys/FuXi,195,high,51,2023-06-29,2026-06-18,weather forecasting
+GIS4WRF/gis4wrf,188,high,454,2018-06-13,2023-02-13,weather forecasting
+daya0576/he-weather-bot,187,high,4326,2020-06-26,2025-07-04,weather forecasting
+thuml/Corrformer,186,high,59,2023-04-01,2025-01-03,weather forecasting
+rkeisler/keisler-2022,171,high,36462,2026-05-03,2026-05-04,weather forecasting
+black-yt/WeatherGFT,170,high,19861,2024-05-29,2025-02-04,weather forecasting
+mawinkler/astroweather,162,high,7101,2021-01-29,2026-10-26,weather forecasting
+rebase-energy/awesome-weather-models,149,high,133,2024-08-30,2025-05-10,weather forecasting
+hg1337/homeassistant-dwd,136,high,1524,2020-12-28,2026-10-04,weather forecasting
+Aalto-QuML/ClimODE,130,high,12490,2023-11-28,2026-11-05,weather forecasting
+chrisjtwomey/inkplate10-weather-cal,129,high,6444,2022-08-06,2026-11-19,weather forecasting
+EnjiRouz/Voice-Assistant-App,129,high,111,2020-10-03,2020-11-24,weather forecasting
+caternuson/rpi-weather,118,high,6532,2014-09-12,2026-08-11,weather forecasting
+WFRT/verif,103,high,5036,2015-05-30,2026-11-18,weather forecasting
+lux4rd0/weatherflow-collector,103,high,24374,2021-03-10,2024-07-05,weather forecasting
+PaulVanSchayck/ha-nl-weather,102,high,5362,2025-07-16,2026-11-23,weather forecasting
+btrotta/kaggle-favorita,18,low,14,2018-01-16,2018-01-17,sales forecasting
+IsurangaHerath/Retail_Sales_Forecasting,17,low,8,2026-10-29,2026-11-02,sales forecasting
+airscholar/astro-salesforecast,15,low,1504,2025-07-30,2025-07-30,sales forecasting
+antklen/kaggle_favorita-grocery-sales,15,low,10,2018-01-17,2018-01-29,sales forecasting
+grimmlab/HorticulturalSalesPredictions,14,low,244,2020-12-16,2022-10-26,sales forecasting
+TerminalWitchcraft/Xaon,14,low,10806,2016-03-04,2018-01-13,sales forecasting
+Karthikeya498/FUTURE_ML_01,12,low,1300,2025-08-24,2025-08-24,sales forecasting
+Ashok-777/Demand-Forecasting-in-Retail,12,low,37,2025-10-23,2026-01-23,sales forecasting
+databricks-industry-solutions/parts-demand-forecasting,10,low,164,2022-08-13,2025-03-28,sales forecasting
+Rupasree02/Predictive-Analysis-on-Healthcare-Products,10,low,118,2020-08-10,2020-08-10,sales forecasting
+Rakib2275/AI-Business-Intelligence-Platform,9,low,199436,2026-09-25,2026-11-20,sales forecasting
+Hari-2782/data_analytics_project,9,low,655,2025-05-15,2025-05-16,sales forecasting
+ZisisFl/Sales-Forecasting-with-LSTM,8,low,29328,2018-10-17,2019-07-09,sales forecasting
+lleisner/bakery_sales_forecasting,8,low,384764,2024-02-26,2024-08-12,sales forecasting
+wangzaiwang-hub/Product_Sales-Forecasting_System,8,low,4718,2025-12-22,2025-12-22,sales forecasting
+ya5h8/Demand-Decision-Intelligence,8,low,6374,2026-09-07,2026-10-05,sales forecasting
+LuthandoCandlovu/ai-decision-support,8,low,384,2026-03-18,2026-03-23,sales forecasting
+vishnupriyanpr/SaleFore-AI,7,low,123381,2025-07-26,2025-08-22,sales forecasting
+AnthonyKorie/Market-IQ,7,low,246,2026-03-05,2026-03-05,sales forecasting
+kevinpalm/walmart_sales_forecast,6,low,4,2016-06-16,2016-10-19,sales forecasting
+SAP-samples/ibp-data-intelligence-forecasting-prophet,6,low,430,2022-09-20,2026-06-09,sales forecasting
+kokilamariyayi/time-series-forecasting,6,low,145,2026-03-29,2026-04-16,sales forecasting
+analyticsdurgesh/walmart-sales-analytics,6,low,207,2026-09-21,2026-11-15,sales forecasting
+Tejashri-Chavan/Sales-prediction-with-python,6,low,6,2023-11-07,2023-11-28,sales forecasting
+adrianzelazek/Forecast-of-sales-using-ARIMA-and-XGBoost-in-Python,6,low,38390,2021-03-01,2021-03-01,sales forecasting
+neslihannaydin/gemini-sales-forecaster,5,low,1115,2025-08-05,2025-08-06,sales forecasting
+kculz/sales-forecasting-,5,low,5354,2023-02-14,2023-03-07,sales forecasting
+hashanfr/sales-forecasting-system,5,low,6,2026-04-16,2026-04-16,sales forecasting
+yizhangzhai/Corporaci-n-Favorita-Grocery-Sales-Forecasting,5,low,16,2019-02-01,2019-08-05,sales forecasting
+yangfujun215/Drug-Sales-Forecast,5,low,146,2024-02-18,2024-02-19,sales forecasting
+sawallesalfo/Retail-360,5,low,6071,2022-01-23,2023-02-04,sales forecasting
+harish988/Sales-Demand-Forecast,5,low,19482,2018-09-02,2018-09-02,sales forecasting
+ramelica/Amazon_Analysis_Project,5,low,3056,2025-08-13,2026-10-13,sales forecasting
+anshchandak5/Stockify---Inventory-management-and-trendline-prediction,5,low,742,2025-04-09,2025-04-09,sales forecasting
+drusk/kaggle-walmart-sales-forecasting,4,low,4772,2014-02-27,2014-04-03,sales forecasting
+sumant-here/SalesForecasting_Project,4,low,7321,2026-08-08,2026-08-08,sales forecasting
+PRASAD1630/fmcg-ai-business-assistant,4,low,374,2026-06-17,2026-06-17,sales forecasting
+Genpeng/order-sales-forecast,4,low,4426,2018-11-15,2020-02-21,sales forecasting
+J-coder118/AI_sales_forecasting,4,low,57,2024-01-10,2024-01-14,sales forecasting
+J-coder118/SalesForecasting_shopify_facebook_googleAds,4,low,1918,2024-04-17,2024-04-17,sales forecasting
+Madhvansh/Retail-Sales-Forecasting-Engine,4,low,79,2026-06-14,2026-07-19,sales forecasting
+surafel142/Sales-Forecasting-with-Deep-Learning,4,low,76,2025-10-14,2025-10-15,sales forecasting
+Dharmeshkumar2327/Time_Series_Retail_Sales_Forecasting,4,low,921,2026-10-08,2026-10-08,sales forecasting
+sanT-0/Retail-Forecasting-System-with-Gmail-Automation,4,low,23381,2026-04-05,2026-05-24,sales forecasting
+abairy/Multivariate-Time-Series-Forecasting-of-Shampoo-Sales-Data-using-LSTM,4,low,3,2019-03-04,2019-03-04,sales forecasting
+razaawaish-ark/FUTURE_ML_01,4,low,58,2026-04-24,2026-04-25,sales forecasting
+Vivek0712/Cotton-Procurement-Planner-using-ML,4,low,77,2018-08-19,2018-08-19,sales forecasting
+Siva-kumar-r16/video-game-sales-analytics,4,low,597,2025-12-25,2026-07-30,sales forecasting
+harshadulshan/demand-inventory-optimizer,4,low,1042,2026-10-21,2026-10-21,sales forecasting
+sinthiagupta/CustomerInsightPredictor,4,low,4384,2024-11-01,2024-12-03,sales forecasting
+VishalDeep1377/Codsoft-Internship,4,low,511,2025-06-06,2025-06-06,sales forecasting
+Taylanozveren/MachineLearning-DataMiningProject,4,low,6088,2025-01-06,2025-01-21,sales forecasting
+mostafaayman646/Superstore-Sales-forecasting,3,low,7368,2025-10-02,2025-12-08,sales forecasting
+hammaadrizwan/marketwiz,3,low,226720,2023-11-20,2024-03-31,sales forecasting
+HYDRAGanesh/sales_forecasting,3,low,3,2023-03-04,2023-12-05,sales forecasting
+RohanPatel593/furniture-sales-forecasting,3,low,95124,2021-06-15,2021-06-15,sales forecasting
+pratikban-cell/simple-sales-forecasting,3,low,163,2025-06-25,2026-01-28,sales forecasting
+Junewang0614/CarsPredictionSys,3,low,5050,2022-01-03,2022-01-14,sales forecasting
+Circhastic/sales-forecasting-system-st,3,low,44,2023-12-01,2023-12-01,sales forecasting
+misw21/AI-Sales-Forecasting-System,3,low,13108,2026-08-31,2026-08-31,sales forecasting
+shahinda383/Sales-Forecasting-and-Optimization,3,low,12109,2025-08-22,2025-12-01,sales forecasting
+Ritikakoirala/Time-Series-Sales-Forecasting,3,low,487,2026-04-21,2026-05-15,sales forecasting
+Tekalig/Rossmann-Sales-Insights-and-Forecasting,3,low,37,2025-01-03,2025-01-14,sales forecasting
+artfuturx/sales-prediction-fastapi,3,low,312,2025-03-25,2025-04-11,sales forecasting
+meghanakotagiri/Sales-forecasting-for-weather-sensitive-products,3,low,20393,2018-08-09,2018-08-09,sales forecasting
+sruthivarma05/Demand-Forecasting-on-Blinkit-Sales-Dataset,3,low,3170,2025-10-03,2025-10-03,sales forecasting
+Escap1ng/kaggle-store-sales-timesfm,3,low,23,2026-11-03,2026-11-03,sales forecasting
+Rakshan-2004/Real-Time-Sales-Dashboard-with-Forecasting-and-Anomaly-Detection,3,low,117,2026-04-17,2026-04-17,sales forecasting
+OmarAlhaz/E-Commerce-Sales-Forecasting-with-PySpark,3,low,6468,2025-10-16,2025-10-16,sales forecasting
+dmiekoar/m5_forecasting_accuracy,3,low,686754,2020-03-04,2020-08-07,sales forecasting
+SupratikSaha/Kaggle-M5-Forecasting-Uncertainty-Walmart-Store-Sales,3,low,311,2020-08-18,2022-01-07,sales forecasting
+ruchikumari-jha/E-Commerce-Revenue-Forecasting,3,low,9,2025-12-15,2025-12-17,sales forecasting
+Qqqqq-co/Bayesian-Optimized-LSTM-GPR-Hybrid-Model-for-New-Energy-Vehicle-Sales-Forecasting,3,low,9,2025-08-18,2025-08-18,sales forecasting
+icepear-jzx/CCF-BDCI-2019,3,low,17179,2019-09-09,2019-12-11,sales forecasting
+Arathyvijayachandran/Sales-Prediction-with-LSTM,3,low,5,2025-06-01,2025-06-01,sales forecasting
+laiba26-aslam/pakistan-ecommerce,3,low,2049,2026-05-02,2026-05-11,sales forecasting
+vickycodeswith/AI-Business-Intelligence-Assistant,3,low,44,2026-06-09,2026-11-09,sales forecasting
+amteved-lang/Thiranex_Task3,3,low,8,2026-06-11,2026-06-11,sales forecasting
+mbfinotti/revops-skills,3,low,733,2026-09-05,2026-10-26,sales forecasting
+UdayIge/BigMart-Sales-Prediction,3,low,556,2025-10-11,2026-07-11,sales forecasting
+rooky1905/Sales-Predictor,3,low,22,2019-11-25,2024-08-02,sales forecasting
+HumaticsLAB/GTM-Transformer,65,mid,72,2021-09-17,2022-07-23,sales forecasting
+Meteor-Stars/MLF,37,mid,6115,2024-08-06,2026-06-08,sales forecasting
+nithya-2006/Smart-Sales-forecasting-system,34,mid,3,2026-01-02,2026-03-30,sales forecasting
+Madhuarvind/Retail_sales_analysis,34,mid,2129,2025-06-16,2025-06-18,sales forecasting
+AmirhosseinHonardoust/Demand-Forecasting,32,mid,609,2025-09-09,2026-08-10,sales forecasting
+HumaticsLAB/AttentionBasedMultiModalRNN,30,mid,86,2021-09-20,2022-06-21,sales forecasting
+ceshine/favorita_sales_forecasting,29,mid,41,2018-02-10,2018-02-11,sales forecasting
+AmirhosseinHonardoust/Market-IQ,23,mid,299,2025-11-05,2025-11-05,sales forecasting
+LenzDu/Kaggle-Competition-Favorita,261,high,38,2018-01-16,2018-02-06,sales forecasting
+wudi2001/STGAGRTN,20,low,3506,2023-04-16,2024-04-10,traffic forecasting
+laibajiu/STLAformer,19,low,44221,2025-02-24,2025-11-20,traffic forecasting
+luokn/matgcn,18,low,355,2020-04-21,2022-10-04,traffic forecasting
+tsinghua-fib-lab/UoMo,17,low,10351,2025-05-27,2025-08-14,traffic forecasting
+RomainLITUD/Multistep-Traffic-Forecasting-by-Dynamic-Graph-Convolution,16,low,11866,2020-11-10,2024-07-10,traffic forecasting
+HduDBSI/DSTGCN,16,low,6624,2022-01-21,2022-11-16,traffic forecasting
+zhuoshu/TLAST,15,low,25,2025-06-28,2025-11-03,traffic forecasting
+Pengxin-Guo/ADCSD,15,low,10777,2023-12-09,2024-01-09,traffic forecasting
+luyaxuan/TPGM-LLM,15,low,1849,2025-11-18,2026-03-26,traffic forecasting
+uzumstanley/Traffic-Forecasting-For-Road-Network,14,low,83636,2024-06-16,2025-02-19,traffic forecasting
+jeongwhanchoi/STG-NRDE,14,low,31886,2022-04-02,2022-05-23,traffic forecasting
+yandex-research/urban-traffic-benchmark,13,low,85,2025-09-30,2026-05-14,traffic forecasting
+divyavardhanbandi-svg/website-traffic-forecast-tool,13,low,17,2026-08-14,2026-08-14,traffic forecasting
+pjeena/Traffic-Flow-Prediction-in-the-city-of-Paris-using-LSTM,13,low,266121,2023-05-30,2024-07-16,traffic forecasting
+xihao-1223/ST-Transformer,12,low,586,2020-10-13,2020-10-11,traffic forecasting
+zhyliu00/MTPB,12,low,11897,2023-12-13,2023-12-13,traffic forecasting
+kvmduc/TEAM-topo-evo-traffic-forecasting,12,low,21511,2024-10-21,2025-05-14,traffic forecasting
+JingweiZuo/GCN-M,12,low,93,2021-12-10,2023-04-03,traffic forecasting
+YushengZhao/LEAF,11,low,135,2025-05-24,2025-08-18,traffic forecasting
+smilehanCN/EventTrafficForecasting,11,low,154770,2024-07-30,2026-06-10,traffic forecasting
+dennisdeneve/AST-GCN,11,low,777490,2023-07-02,2023-08-31,traffic forecasting
+saoruy/ST3DNet,10,low,4857,2020-01-31,2020-01-03,traffic forecasting
+imethanlee/STGCN,10,low,17623,2021-01-24,2021-04-17,traffic forecasting
+liuzh-buaa/ST-nFBST,10,low,15431,2024-01-22,2024-08-26,traffic forecasting
+tumeteor/neurips2019challenge,10,low,24,2019-10-23,2022-11-22,traffic forecasting
+yanxiao1930/SAE3D-LSTM,10,low,10,2022-12-02,2022-12-02,traffic forecasting
+1cwj/TFF,9,low,8694,2025-05-22,2025-05-22,traffic forecasting
+Skar0/time_series,9,low,41829,2020-01-05,2020-02-11,traffic forecasting
+zhyliu00/FEPCross,9,low,889,2024-06-02,2024-06-02,traffic forecasting
+JohnYu04/AI1603-Project-Traffic-Prediction,9,low,3739,2024-07-22,2026-08-30,traffic forecasting
+ILoveStudying/AM-RGCN,9,low,52145,2020-06-15,2024-09-05,traffic forecasting
+yaoyaowong/traffic-star-transformer,9,low,1701,2024-01-22,2024-01-22,traffic forecasting
+SYLan2019/DSTFGCN,9,low,79426,2025-04-01,2026-05-09,traffic forecasting
+Anoise/Seed-GIF,9,low,16188,2025-07-12,2025-08-01,traffic forecasting
+Jhon-dong/STGCN-keras,8,low,27901,2020-08-04,2020-07-29,traffic forecasting
+longfly04/Traffic-flow-forecast,8,low,1985,2019-10-23,2023-03-25,traffic forecasting
+mie-lab/CKG-traffic-forecasting,8,low,1068,2024-11-29,2024-11-29,traffic forecasting
+minzhe-wu/SpatioTemporal-Traffic-Prediction,8,low,61,2025-04-03,2025-04-03,traffic forecasting
+jzephyrl/LSTSF-GWN,8,low,36,2021-09-10,2021-09-10,traffic forecasting
+aprbw/G-SWaN,8,low,58653,2023-02-19,2025-03-17,traffic forecasting
+LuohaoSun/MGCI,8,low,6340,2023-07-08,2023-07-08,traffic forecasting
+ai4city-sztu/ST-Camba,8,low,559,2025-11-01,2025-11-01,traffic forecasting
+Zhong-HY/CapsNet-NLSTM-ITS,7,low,28143,2019-08-10,2019-08-12,traffic forecasting
+AStroCvijo/dcrnn_implementation,7,low,15,2024-09-23,2024-12-13,traffic forecasting
+MaxRubby/STFACH_2026,7,low,233316,2026-01-19,2026-05-01,traffic forecasting
+quangminhdinh/CosmosAlign,7,low,61580,2026-06-24,2026-08-24,traffic forecasting
+cruiseresearchgroup/forecasting-on-new-roads,6,low,5702,2023-08-04,2025-03-11,traffic forecasting
+jeongwhanchoi/STDDE,6,low,23,2024-07-24,2024-07-24,traffic forecasting
+datudar/kaggle-web-traffic-forecasting,6,low,192,2017-10-01,2017-12-14,traffic forecasting
+anderzzz/london_bike_forecast,6,low,214344,2020-05-03,2020-12-24,traffic forecasting
+RongzhangCheng/DSTET,6,low,62,2023-05-27,2023-11-29,traffic forecasting
+gooriiie/SAGCRN,6,low,375,2024-02-09,2025-11-15,traffic forecasting
+wuyingvia/QUANTRAFFIC,6,low,20,2023-07-23,2024-03-25,traffic forecasting
+CN-UPB/FutureCoord,6,low,7376,2021-09-17,2024-06-27,traffic forecasting
+francoeur003/self-media-director-skill,6,low,249,2026-07-30,2026-09-08,traffic forecasting
+ZHUGUODONG1/DDAMGCN-pytorch-main,6,low,6754,2024-07-14,2025-11-17,traffic forecasting
+StephLee12/MegaCRN,6,low,476870,2022-12-25,2022-12-14,traffic forecasting
+chantsss/FCUS,6,low,395,2023-12-04,2024-01-02,traffic forecasting
+sheldonsebastian/Traffic_Prediction_Using_Time_Series,6,low,5250,2020-06-25,2021-05-11,traffic forecasting
+caailab/deepneuralnetwork,5,low,2665,2021-01-21,2021-01-22,traffic forecasting
+Mr-1504/Traffic-Forecasting-Model,5,low,18333,2024-11-27,2025-02-14,traffic forecasting
+alanshu2018/web-traffic-forecasting,5,low,930,2017-12-14,2017-12-15,traffic forecasting
+NAKANO9331/Traffica,5,low,73793,2025-07-03,2025-07-04,traffic forecasting
+chaeminyoon/AIS-Traffic-Model,5,low,15314,2026-07-06,2026-07-11,traffic forecasting
+Zachary-sysu/MSTFGRN,5,low,21,2022-07-21,2022-09-03,traffic forecasting
+chaeminyoon/AIS-Traffic-Ops,5,low,4534,2026-07-06,2026-07-16,traffic forecasting
+zqylen/MAGCN,5,low,78229,2020-08-25,2021-01-10,traffic forecasting
+Vincent665/SSGAN-for-traffic-prediction,5,low,106411,2025-09-29,2025-10-05,traffic forecasting
+suzy0223/Generalising-Traffic-Forecasting-to-Unobserved-Regions-GenCast,5,low,49,2025-11-09,2026-04-20,traffic forecasting
+smilehanCN/KMHNet,5,low,49503,2024-03-01,2024-06-02,traffic forecasting
+XiongxiaoXu/ML4InterconectNetwork,5,low,22254,2023-07-14,2024-08-23,traffic forecasting
+sunnyxuejj/P2FMS,5,low,1063,2023-01-25,2024-12-26,traffic forecasting
+airyuanshen/GEnSHIN,5,low,2252,2026-01-07,2026-01-10,traffic forecasting
+alivcor/Forecasting-Passenger-Traffic,4,low,3,2016-04-24,2016-04-24,traffic forecasting
+gadear13/tgat,4,low,4397,2022-03-09,2022-03-09,traffic forecasting
+databricks-industry-solutions/campaign-effectiveness,4,low,208,2022-07-22,2023-06-16,traffic forecasting
+vedic-partap/NTPP,4,low,496,2019-03-11,2024-07-25,traffic forecasting
+RDXiaoHuang/STHDformer,4,low,102777,2025-07-10,2025-12-25,traffic forecasting
+LvHaochenBANG/RIPCN,4,low,3710,2025-07-31,2026-03-21,traffic forecasting
+mourjo/zero-shot-forecasting,4,low,22456,2026-10-25,2026-11-01,traffic forecasting
+keenzz111/keitaro-ai-analytics,4,low,153,2025-04-25,2025-04-25,traffic forecasting
+semink/TwoResNet,4,low,63371,2022-04-03,2026-06-10,traffic forecasting
+jsun57/STMAE,4,low,88830,2024-07-25,2024-11-04,traffic forecasting
+ivanimmanuel-dev/TraCast,4,low,10822,2026-10-26,2026-11-08,traffic forecasting
+lulzzz/tflearn_seq2seq,4,low,0,2017-06-15,2017-06-15,traffic forecasting
+selcuksan/time-series-with-LGBM,4,low,6,2022-05-28,2022-05-28,traffic forecasting
+Harsh-DevOps117/netwatch,4,low,73181,2026-09-02,2026-10-05,traffic forecasting
+illumina7e/TCC-LSTM-LSM,3,low,11460,2020-09-02,2020-12-13,traffic forecasting
+miaoweiwei/CellularTrafficForecast,3,low,94,2020-06-10,2023-03-24,traffic forecasting
+stadjformer/traffic-forecasting-public,3,low,17769,2025-12-12,2025-12-12,traffic forecasting
+Traffic-Forecasting-Thesis-Group/Event-Aware-Traffic-Forecasting,3,low,134715,2026-04-15,2026-06-15,traffic forecasting
+gajalgarg09/Traffic-Forecasting-using-GNN,3,low,21229,2025-05-29,2025-05-29,traffic forecasting
+vishalmhjn/traffic-waves,3,low,2726,2024-02-20,2026-10-30,traffic forecasting
+jagdish-15/netforec,3,low,1043,2026-09-11,2026-10-06,traffic forecasting
+majidhosseini87/HG-GFNO-Traffic-Prediction-ITS,3,low,15278,2026-02-03,2026-02-06,traffic forecasting
+Ansem-chaieb/Spatio-Temporal-Beam-Level-Traffic-Forecasting,3,low,17,2024-09-09,2024-10-08,traffic forecasting
+isLouisHsu/MAF-GNN,3,low,16,2021-07-22,2022-07-07,traffic forecasting
+Boumoula/AI-Routing-Smart-Transport,3,low,14190,2025-01-24,2025-01-24,traffic forecasting
+ecmlpkdd2023/EASTAN,3,low,54415,2023-04-02,2023-04-02,traffic forecasting
+Donysus/Traffic-Flow-Prediction,3,low,10,2025-02-08,2025-02-08,traffic forecasting
+guokan987/HGCN,100,mid,1074,2020-12-12,2022-07-18,traffic forecasting
+Aoyu-Liu/STIDGCN,95,mid,117805,2022-09-17,2025-05-13,traffic forecasting
+LMissher/PatchSTG,90,mid,33402,2024-12-13,2025-11-30,traffic forecasting
+RobinLu1209/STAG-GCN,75,mid,90,2020-04-02,2020-10-27,traffic forecasting
+juyongjiang/TrendGCN,51,mid,13211,2022-06-30,2023-08-11,traffic forecasting
+systragroup/quetzal,49,mid,71908,2018-11-20,2026-11-23,traffic forecasting
+YihongT/DASTNet,48,mid,1604,2021-12-15,2023-01-28,traffic forecasting
+roarer008/STDN,45,mid,19067,2024-08-15,2026-01-16,traffic forecasting
+martin-xia0/Jam_Forecaster,44,mid,5331,2019-06-13,2019-11-28,traffic forecasting
+Echohhhhhh/GSNet,39,mid,20654,2021-02-05,2023-04-13,traffic forecasting
+AmitRoy7781/USTGCN,36,mid,24723,2021-04-19,2024-09-15,traffic forecasting
+IPCLab/CDRF,34,mid,56,2017-10-10,2018-02-28,traffic forecasting
+Anoise/WTFlib,33,mid,1043,2023-11-12,2025-01-14,traffic forecasting
+Aoyu-Liu/STAMT,32,mid,3243,2023-11-16,2025-04-27,traffic forecasting
+usail-hkust/ASeer,31,mid,332,2024-06-13,2024-08-28,traffic forecasting
+vyokky/Mobihoc-18-STN-mobile-traffic-forecasting,30,mid,38,2018-12-11,2019-04-04,traffic forecasting
+Lin956/STTNS,30,mid,584,2021-04-27,2021-04-27,traffic forecasting
+sadnessFree/arima-lstm,30,mid,21,2018-04-26,2018-12-05,traffic forecasting
+Vincent665/MGCN-for-Traffic-Prediction,30,mid,106423,2024-11-21,2026-01-27,traffic forecasting
+DrownFish19/CorrSTN,28,mid,208598,2021-11-20,2024-02-23,traffic forecasting
+ll121202/HyperD,28,mid,1633,2025-11-11,2026-04-28,traffic forecasting
+kevin-xuan/FOGS,27,mid,14245,2022-04-28,2023-08-25,traffic forecasting
+zhyliu00/TPB,23,mid,26174,2023-08-12,2023-08-12,traffic forecasting
+xyk0058/STGAT,23,mid,36168,2019-11-06,2021-11-17,traffic forecasting
+YushengZhao/DyHSL,21,mid,9,2022-10-09,2022-10-14,traffic forecasting
+zbliu98/GRAM-ODE,21,mid,128776,2022-11-12,2024-01-11,traffic forecasting
+SYLan2019/MH-ASTIGCN,21,mid,47301,2021-11-03,2026-09-21,traffic forecasting
+guoshnBJTU/ASTGCN-2019-pytorch,752,high,1297,2020-01-03,2021-07-13,traffic forecasting
+sjvasquez/web-traffic-forecasting,667,high,920,2017-09-12,2018-01-17,traffic forecasting
+SYLan2019/DSTAGNN,323,high,13812,2022-05-22,2026-06-25,traffic forecasting
+liuxu77/LargeST,299,high,8881,2023-06-13,2023-11-01,traffic forecasting
+GestaltCogTeam/D2STGNN,286,high,2442,2022-01-04,2023-10-16,traffic forecasting
+XDZhelheim/STAEformer,249,high,147200,2023-06-14,2025-11-15,traffic forecasting
+MengzhangLI/STFGNN,235,high,27263,2020-09-03,2021-01-26,traffic forecasting
+Echo-Ji/ST-SSL,204,high,15676,2022-12-02,2024-12-12,traffic forecasting
+jeongwhanchoi/STG-NCDE,179,high,31876,2021-09-05,2024-09-14,traffic forecasting
+wubin5/STTN,172,high,3721,2020-10-11,2021-04-22,traffic forecasting
+LeronQ/STGCN-Pytorch,159,high,14699,2020-11-11,2020-11-11,traffic forecasting
+deepkashiwa20/MegaCRN,151,high,479464,2022-11-21,2023-12-23,traffic forecasting
+LMissher/STWave,124,high,135,2022-07-24,2025-03-18,traffic forecasting
+xumingxingsjtu/STTN,113,high,7883,2021-10-20,2021-11-17,traffic forecasting
+jswang/stgat_traffic_prediction,113,high,23571,2021-10-27,2023-01-29,traffic forecasting
+wengwenchao123/DDGCRN,103,high,22846,2022-11-19,2025-09-02,traffic forecasting
+Varad2305/Time-Series-Anomaly-Detection,20,low,2137,2021-04-10,2021-04-12,lstm time series
+aurelienmorgan/abnormal_vibrations_watchdog,18,low,9130,2020-09-18,2020-12-07,lstm time series
+Chrissi2802/WISDM---Biometric-time-series-data-classification,17,low,19340,2022-09-02,2022-10-11,lstm time series
+flaviagiammarino/encdec-ad-tensorflow,17,low,7259,2022-08-17,2024-04-15,lstm time series
+michhar/anomaly-detect-timeseries,16,low,235,2018-07-03,2023-03-25,lstm time series
+DuaneNielsen/DualAttentionSeq2Seq,16,low,730,2018-03-31,2018-04-05,lstm time series
+RezaSaadatyar/Time-Series-Analysis-in-Python,15,low,1601,2022-07-10,2024-05-24,lstm time series
+akash13singh/LSTM_TimeSeries,14,low,3,2017-02-27,2017-03-03,lstm time series
+YuLi2022/TimeSeries-LSTM,14,low,199,2020-11-06,2020-11-06,lstm time series
+FedericOldani/TGLSTM,13,low,9,2019-05-28,2020-03-13,lstm time series
+joeng03/LSTM-Unistep-Multivariate-Multistep-example,12,low,13,2019-10-25,2023-02-04,lstm time series
+zlxy9892/CNN-LSTM_for_DSM,12,low,4141,2022-05-16,2022-07-26,lstm time series
+Jianxiang-Wang/Pytorch-code-for-time-series-classification,12,low,9,2020-08-28,2020-09-19,lstm time series
+salmansust/TimeSeries-LSTM,11,low,5,2020-02-27,2020-02-27,lstm time series
+Chenqianhan/Keras-Bi-LSTM-TimeSeries,11,low,6,2019-04-26,2019-06-28,lstm time series
+mulkkyul/lstm-initStates,11,low,2633,2020-07-14,2020-07-15,lstm time series
+torijasuta/RNN-Forecasting,11,low,16,2016-08-12,2016-08-26,lstm time series
+praveendareddy21/Stacked_LSTMS_Highway_Residual_On_TimeSeries_Datasets,11,low,424,2017-03-18,2017-09-08,lstm time series
+temp3rr0r/Longsword-Stance-RESTful-Service,11,low,80049,2017-11-21,2019-07-16,lstm time series
+L-A-Sandhu/TimeMesh,11,low,9355,2025-03-04,2025-07-07,lstm time series
+ernestcr/ECR-LSTM-Neural-Network-for-Time-Series-Prediction,10,low,116,2019-07-24,2023-03-24,lstm time series
+WISEPLAT/SBER-LSTM-Neural-Network-for-Time-Series-Prediction,10,low,1072,2022-01-24,2022-02-14,lstm time series
+yaroslavmavliutov/Time_series_Prediction-Anomaly-detection_V-AE-LSTM,10,low,9,2020-04-12,2020-05-22,lstm time series
+HELL-TO-HEAVEN/LSTM-VAE,10,low,13,2021-04-02,2021-02-21,lstm time series
+neil-deng-zhiyong/Mortality-Prediction-using-Channel-Wise-LSTM,10,low,42419,2019-07-21,2019-07-21,lstm time series
+harshitv804/Time-Series-Forecasting-LSTM-Streamlit,9,low,23,2024-04-07,2024-08-12,lstm time series
+elSomewhere/Time-Series-ML,9,low,11,2018-02-15,2018-02-15,lstm time series
+amitrajitbose/lstm-time-series-viz,9,low,2338,2019-05-03,2019-05-11,lstm time series
+shixiangbupt/Time-series-Forecast,9,low,11853,2021-04-12,2020-09-30,lstm time series
+whyisshizai/LSTM-Transformer-Time-Series-Forecasting,9,low,11,2025-03-17,2025-03-17,lstm time series
+vamsikrish96/Time-series-Prediction-using-GRU-and-LSTM-methods,9,low,5,2020-11-24,2020-11-26,lstm time series
+GoktugOcal/time-series-adversarial-attacks,9,low,98371,2022-11-18,2023-04-15,lstm time series
+raissaantunes/timeseries,9,low,16135,2021-12-18,2021-12-18,lstm time series
+mehrdadmb2/IntrusionDetectionModels,9,low,169530,2024-11-10,2024-11-11,lstm time series
+yzfly/RNN_LSTM_GRU_PyTorch,8,low,1092,2022-07-24,2022-07-24,lstm time series
+githubrkr594/Stock_Market_Preduction,8,low,20256,2019-04-23,2019-05-02,lstm time series
+varun-madhavan/LSTM_with_attention_for_time_series,8,low,387,2019-12-31,2020-01-02,lstm time series
+jnimit99/LSTM-based-health-quality-predictor,8,low,253,2019-07-29,2019-10-25,lstm time series
+vpuhoff/prometheus-anomaly-detection-lstm,8,low,294,2025-05-31,2026-01-15,lstm time series
+harveybc/feature-extractor,8,low,195370,2018-10-21,2026-10-08,lstm time series
+sayondutta/recurrent_neural_networks_to_predict_churn,8,low,1320,2017-06-05,2017-06-14,lstm time series
+Data-Science-Big-Data-Research-Lab/CVOA_LSTM,7,low,31,2020-03-20,2022-02-17,lstm time series
+hung96ad/predict_price_cryptocurrencies,7,low,477,2018-11-10,2019-03-04,lstm time series
+Dntfreitas/EA_Time_Series_Fusion_Optimizer,7,low,63,2021-12-14,2021-12-14,lstm time series
+ChendongLi/algorithm-trading-cryptocurrency,7,low,1048,2019-02-26,2019-03-08,lstm time series
+arijit1410/LSTM-TimeSeries,7,low,7,2018-07-16,2018-07-16,lstm time series
+mmrgnl/BiLSTM-TimeSeriesForecast,7,low,10,2024-11-22,2024-11-22,lstm time series
+maryamdaniali/TimeSeries-VAE-Anomaly-Detection,7,low,7,2023-03-27,2023-03-27,lstm time series
+Adithya-Behera/Federated-Learning-LSTM-CPU-Utilization-Prediction,7,low,125,2024-05-23,2024-05-23,lstm time series
+Eashan123/Time-Series-Prediction-with-LSTM,7,low,8,2018-06-24,2018-06-24,lstm time series
+adriannaloback/Forecasting-LSTM-WTA,7,low,13,2019-03-11,2019-03-11,lstm time series
+ppannattee/ALSTM-FCN-Pytorch,7,low,8,2023-11-03,2024-07-07,lstm time series
+jmushailov/LSTM_NeuralNetwork,7,low,19,2020-07-21,2022-01-04,lstm time series
+WanjunCC/LSTM_GNN,7,low,990,2023-09-26,2023-09-26,lstm time series
+ANONYMOUS-GURU/RareEventDetection,7,low,5630,2020-02-19,2020-02-19,lstm time series
+DantEzio/Seq_pred,7,low,16473,2018-11-24,2019-12-04,lstm time series
+Alpha-Mintamir/BTC_forecast,7,low,59,2024-02-18,2024-02-18,lstm time series
+Neocryan/PyTorch-TimeSeries-LSTM,6,low,5,2019-03-05,2019-03-05,lstm time series
+lancerts/LSTM_Time_Series_Classfication,6,low,6,2017-06-04,2017-06-04,lstm time series
+AlanHuang1998/LSTM-Predict,6,low,157,2020-02-11,2020-02-24,lstm time series
+shwan1023/DTW-LSTM,6,low,64720,2024-03-04,2024-06-02,lstm time series
+handal95/Timeband,6,low,49266,2021-10-02,2021-12-30,lstm time series
+amirhnazerii/PowerLoad_DeepLSTM,6,low,12254,2022-08-20,2022-08-21,lstm time series
+MustafaKocamann/deep-learning-time-series-portfolio,6,low,48766,2026-01-14,2026-01-14,lstm time series
+Reitmania/GUIbrushDeepwood,6,low,2421,2017-06-12,2020-06-07,lstm time series
+lightlightdyy/zhuanche_project,6,low,505,2018-11-06,2019-02-24,lstm time series
+aps-in/Lithography_Defect_Detection,6,low,479,2023-02-08,2023-02-09,lstm time series
+rabieifk/UberDemand_Recurrent_Neural_Network,6,low,354,2019-06-04,2020-12-22,lstm time series
+Alfiuman/Duilius-tf-RNN,6,low,13,2017-09-11,2020-09-15,lstm time series
+noayarae/forecasting_biomass_using_DL_models,6,low,29,2023-08-18,2024-04-11,lstm time series
+DavidRavnsborg/Predictive-Modeling-on-Gait-Data,6,low,379,2017-08-30,2017-09-26,lstm time series
+yc930401/timeseries_prediction_LSTM,5,low,1285,2017-11-17,2017-11-20,lstm time series
+WenqinSHAO/rtt_changedetect_rnn_lstm,5,low,14030,2018-06-27,2018-06-28,lstm time series
+hayriyeanill/EarthquakePrediction,5,low,420,2021-08-30,2021-08-30,lstm time series
+RaiderYi/RNN-LSTM-TimeSeries,5,low,9367,2019-07-13,2026-07-04,lstm time series
+ImanRHT/Time_Series_Prediction,5,low,4289,2023-11-15,2025-11-25,lstm time series
+Nikit117/Time-Series-Forcasting-using-Streamlit,5,low,3443,2023-01-08,2023-04-15,lstm time series
+tavern1master/time_series_forecasting_LSTM_TCN_SOM,5,low,4296,2023-07-31,2023-07-31,lstm time series
+VirajBagal/Traditional-vs-Neural-Time-Series-Modeling,5,low,6,2019-06-30,2019-06-30,lstm time series
+MedRguibi/ARIMA_LSTM_COVID19__Time_Series_Forcasting_MOROCCO,5,low,31,2022-03-30,2022-03-30,lstm time series
+zrs233/Time-Series-Regressor,5,low,162,2019-04-13,2019-04-13,lstm time series
+nomank3797/02-Deep-Learning-Models-for-Time-Series-Forecasting,5,low,44,2024-02-20,2024-03-14,lstm time series
+bhuriyamukesh/Stock-Market-Time-Series-Prediction-Using-LSTM-And-SVM-Algorithm,5,low,8,2018-11-22,2018-11-22,lstm time series
+leizhang-geo/CNN-LSTM_for_DSM,95,mid,4164,2022-07-25,2024-03-07,lstm time series
+WaterWoodW/EEMD-LSTM-DO-Prediction,90,mid,18206,2020-06-23,2026-08-29,lstm time series
+BBVA/timecop,81,mid,47423,2018-07-23,2021-05-06,lstm time series
+ari-dasci/S-TSFE-DL,66,mid,960,2021-03-23,2025-09-10,lstm time series
+lyx199504/mc-lstm-time-series,59,mid,24,2022-04-20,2023-11-21,lstm time series
+spallas/time-attention,58,mid,2209,2018-12-22,2022-12-30,lstm time series
+PatientEz/Multidimensional-time-series-prediction-,56,mid,8401,2019-05-17,2019-05-17,lstm time series
+titu1994/LSTM-FCN-Ablation,55,mid,36,2019-02-28,2019-03-01,lstm time series
+aparajitad60/Stacked-LSTM-for-Covid-19-Outbreak-Prediction,50,mid,18,2020-05-14,2020-05-16,lstm time series
+weilai0980/IMV-LSTM,48,mid,58,2018-05-17,2021-06-18,lstm time series
+Rssevenyu/pytorch-time_series_data-prediction-with-gru-and-lstm,48,mid,162,2022-03-26,2022-03-27,lstm time series
+dongkuanx27/DeepTrends,47,mid,2750,2019-11-21,2021-12-18,lstm time series
+yifan-guo-cwru/Time-Series-Prediction-with-LSTM-Recurrent-Neural-Networks-in-Python-with-Keras,45,mid,3,2016-10-17,2016-10-17,lstm time series
+abdullahf/lstm-kalman-hybrid-timeseries,45,mid,5070,2017-05-23,2023-04-02,lstm time series
+pusj/LSTM-Time-Series-Analysis-using-Tensorflow,40,mid,203,2017-03-28,2017-07-20,lstm time series
+bzantium/EA-LSTM,40,mid,697,2020-01-04,2020-01-13,lstm time series
+LiYouru0228/EA-LSTM,39,mid,9,2019-02-24,2019-02-24,lstm time series
+ivivan/SSIM_Seq2Seq,39,mid,5058,2018-07-27,2021-08-19,lstm time series
+ozancanozdemir/CNN-LSTM,38,mid,3,2022-02-03,2022-04-19,lstm time series
+StoicGilgamesh/LSTM-GAN-,37,mid,6,2019-02-26,2019-02-26,lstm time series
+brunocampos01/forecast-of-time-series-with-stock-data,37,mid,371180,2020-04-14,2024-05-05,lstm time series
+UalwaysKnow/time-series-prediction-with-gan,36,mid,65,2019-10-30,2019-11-05,lstm time series
+zamaex96/Hybrid-CNN-LSTM-with-Spatial-Attention,36,mid,810,2024-10-22,2025-01-14,lstm time series
+alidi24/bearing-rul-prediction,34,mid,3445,2025-02-22,2025-02-28,lstm time series
+roytalman/LSTM-FCN-Pytorch,32,mid,1,2020-06-30,2020-06-30,lstm time series
+lyx199504/f-se-lstm-time-series,32,mid,29,2022-12-08,2024-12-04,lstm time series
+antoniopaisfernandes/Demand-Forecasting,32,mid,5,2018-05-19,2018-02-09,lstm time series
+yyqcs/time-series-model,31,mid,499,2019-12-20,2024-07-25,lstm time series
+moment-of-peace/EventForecast,31,mid,8014,2017-09-01,2017-11-30,lstm time series
+PatientEz/lstm-time-series-forecasting_keras,30,mid,16821,2021-02-23,2021-02-23,lstm time series
+akyadav26/Time-Series-Forecast-with-Deep-Hybrid-Architecture,30,mid,196,2020-04-11,2020-06-03,lstm time series
+zwd2016/TG-LSTM-network-for-time-series-prediction,30,mid,1893,2019-07-17,2020-04-26,lstm time series
+rakshita95/DeepLearning-time-series,28,mid,314,2017-08-29,2017-11-12,lstm time series
+Txiaoxiao/LSTM-Neural-Network-for-Time-Series-Prediction,28,mid,56575,2019-06-18,2023-03-24,lstm time series
+AmirhosseinHonardoust/LSTM-Time-Series-Forecasting,28,mid,504,2025-09-11,2026-09-06,lstm time series
+flaviagiammarino/lstm-fcn-pytorch,28,mid,8933,2022-10-29,2024-04-15,lstm time series
+loveseola/time-series-forecasting,27,mid,829,2023-01-18,2023-04-06,lstm time series
+SamanKhamesian/Time-Series-Classification-for-Human-Activity-Recognition,26,mid,15,2020-10-25,2020-11-18,lstm time series
+Scottnan/Multi-LSTM,24,mid,1674,2018-05-28,2022-08-09,lstm time series
+SimonWesterlindVPD/AnomalyDetectionOnRisk,23,mid,1361,2018-05-31,2018-05-31,lstm time series
+fabiozappo/LSTM-Autoencoder-Time-Series,22,mid,11,2021-04-17,2021-04-24,lstm time series
+JJASMINE22/MAML_LSTM,22,mid,20,2022-03-18,2022-06-08,lstm time series
+leehyeonbeen/TimeSeriesSeq2Seq,22,mid,106,2023-07-12,2025-08-03,lstm time series
+Ru-Yan/Sharpe-LSTM-Investment-Model,22,mid,14235,2022-05-23,2022-05-23,lstm time series
+safrooze/LSTNet-Gluon,21,mid,11,2018-05-15,2018-06-05,lstm time series
+shubhomoydas/ad_examples,876,high,131520,2017-11-03,2024-05-22,lstm time series
+titu1994/LSTM-FCN,806,high,7682,2017-08-26,2019-03-01,lstm time series
+PatientEz/CNN-BiLSTM-Attention-Time-Series-Prediction_Keras,755,high,563,2020-03-18,2020-03-26,lstm time series
+umbertogriffo/Predictive-Maintenance-using-LSTM,742,high,8410,2017-09-05,2024-02-12,lstm time series
+titu1994/MLSTM-FCN,516,high,1855,2018-01-16,2020-06-28,lstm time series
+lkulowski/LSTM_encoder_decoder,450,high,7942,2020-01-20,2021-06-04,lstm time series
+RobRomijnders/LSTM_tsc,418,high,3442,2016-04-05,2017-12-15,lstm time series
+TimyadNyda/Variational-Lstm-Autoencoder,338,high,38,2018-04-18,2020-06-24,lstm time series
+jgpavez/LSTM---Stock-prediction,311,high,19309,2015-01-21,2021-01-03,lstm time series
+zongfan2/time_seires_prediction_using_lstm,282,high,54,2016-08-23,2017-02-08,lstm time series
+proceduralia/pytorch-GAN-timeseries,275,high,8,2018-09-10,2019-09-13,lstm time series
+lucasjinreal/LSTM_learn,225,high,3,2016-10-24,2016-10-24,lstm time series
+jsyoon0823/Time-series-prediction,188,high,33,2018-10-17,2024-10-18,lstm time series
+aurotripathy/lstm-anomaly-detect,181,high,132,2016-03-10,2017-06-09,lstm time series
+mlech26l/ode-lstms,123,high,105,2020-06-05,2023-04-27,lstm time series
+SchindlerLiang/VAE-for-Anomaly-Detection,121,high,2864,2018-12-20,2019-03-26,lstm time series
+gcarq/keras-timeseries-prediction,119,high,61,2017-01-18,2017-01-19,lstm time series
+zhangxu0307/time-series-forecasting-keras,119,high,46,2017-10-19,2019-04-22,lstm time series
+ChiYaoLa/TimeSeriesPredict,117,high,51,2020-02-02,2020-02-07,lstm time series
+jkrusina/SoccerPredictor,115,high,2470,2019-12-07,2022-11-21,lstm time series
+Yifeng-He/Deep-Learning-Time-Series-Prediction-using-LSTM-Recurrent-Neural-Networks,102,high,87,2016-09-27,2020-11-04,lstm time series
+DanieleGammelli/variational-poisson-rnn,19,low,234778,2021-07-20,2021-09-01,demand forecasting
+NijatZeynalov/New-product-demand-forecasting-via-Content-based-learning-for-multi-branch-stores,14,low,38599,2022-11-28,2022-12-25,demand forecasting
+alidoesAi/Airline-Demand-Forecasting,13,low,595,2018-09-08,2026-08-01,demand forecasting
+saru2020/InventoryOptimizer,11,low,723,2024-09-09,2026-09-29,demand forecasting
+AmirhosseinHonardoust/Cafe-Demand-Forecasting-Reorder-Simulator,11,low,488,2026-02-07,2026-02-09,demand forecasting
+abrahamnewwine-web/retail-pulse-360-intelligence,11,low,889,2026-11-13,2026-11-13,demand forecasting
+MedYoussefCh/web-application-for-demand-forecasting,10,low,8218,2021-03-08,2021-03-09,demand forecasting
+A1fred00-datascience/Supply-Chain-Optimization,10,low,4133,2024-11-02,2024-11-02,demand forecasting
+alwaysbyx/e2e-DR-learning,10,low,2559,2022-01-29,2022-07-07,demand forecasting
+Swapnaneel07/JALDRISTHI_SIH2026_INTERNAL,10,low,126,2026-08-21,2026-09-03,demand forecasting
+YunBAI-PSL/Regional-electricity-demand-forecasting-with-news,9,low,139,2024-04-09,2024-06-11,demand forecasting
+soopertramp/inventory_forecasting_end2end,9,low,2110,2023-01-31,2024-10-21,demand forecasting
+kahotsang/M5-Demand-Forecasting,8,low,118,2020-07-05,2023-03-25,demand forecasting
+databricks-industry-solutions/intermittent-forecasting,8,low,71,2022-11-16,2023-08-16,demand forecasting
+sbaffo0106/energy-demand-forecasting,8,low,116321,2026-03-14,2026-04-14,demand forecasting
+underdoc-wang/EMS-Pred-ICDE-21,8,low,15,2021-05-16,2021-05-17,demand forecasting
+HilalGozutok/Store-Item-Demand-Forecasting,7,low,3389,2021-05-10,2021-05-11,demand forecasting
+hrishi-alikatte/ride-hailing-demand-forecasting,7,low,34773,2026-03-06,2026-09-18,demand forecasting
+WaterFutures/wf4bwdf,7,low,4870,2025-09-17,2025-09-23,demand forecasting
+BriggSMccall/smartforecast-ml,7,low,11,2026-06-16,2026-06-17,demand forecasting
+ashwin-999/Grupo-Bimbo-inventory-demand,6,low,113,2018-09-12,2017-03-14,demand forecasting
+takehiro177/End-to-end_Demand_forecasting_inventory_optimization,6,low,48,2024-11-08,2024-11-25,demand forecasting
+denoslab/fl-blood-supply-chain,6,low,201,2023-07-25,2023-08-04,demand forecasting
+MedYoussefCh/GUI-for-demand-forecasting,6,low,3081,2021-03-08,2021-03-10,demand forecasting
+Tims2D/SPDNet,6,low,10721,2025-02-16,2025-04-02,demand forecasting
+jhonattanreales21/hierarchical-forecasting-poc,6,low,2656,2026-04-13,2026-06-22,demand forecasting
+Themoltentungsten/Supplex,6,low,797,2026-03-21,2026-04-03,demand forecasting
+joaopaulonu/ProdFinAI-,6,low,18,2025-08-02,2025-12-06,demand forecasting
+kalesha681/Load-Forecasting,6,low,3349,2025-10-30,2025-12-11,demand forecasting
+hajekr/aurora-forecast,6,low,1435,2022-03-12,2026-03-31,demand forecasting
+PranavViswanathan/Rebalance-AI,6,low,532543,2025-09-15,2026-01-20,demand forecasting
+wsp-sag/wsp-balsa,5,low,6132,2017-01-16,2026-10-26,demand forecasting
+ImPHX13/Demand-Forecasting,5,low,9,2020-05-19,2022-11-18,demand forecasting
+sisl/JointDemandForecasting,5,low,1452,2020-09-12,2022-08-09,demand forecasting
+karandhaodiyal28-hash/retail_demand_forecasting,5,low,187,2026-07-24,2026-08-05,demand forecasting
+baharzerenturk/DEMAND_FORECASTING_WITH_LIGHTGBM,5,low,5,2021-08-03,2021-08-03,demand forecasting
+Shubham03-hub/Demand-Forecasting-Inventory-Optimization,5,low,3361,2026-06-06,2026-06-10,demand forecasting
+xdityx/xoserve-uk-gas-demand-forecasting,5,low,3344,2026-01-15,2026-11-22,demand forecasting
+rabia-koc/Demand-Forecasting-with-LightGBM,5,low,9,2021-08-03,2021-08-03,demand forecasting
+pypsa-meets-earth/demand-comp-cntry,5,low,47,2022-01-20,2022-01-23,demand forecasting
+AI-SMART-tt/XAI-DiffNet-Charging-Demand-Forecasting,5,low,302698,2025-08-13,2026-03-08,demand forecasting
+nanlingyin/PTmodel,5,low,95,2024-11-11,2024-11-11,demand forecasting
+alessiosavi/demand-forecast,5,low,41908,2024-12-21,2026-11-22,demand forecasting
+mbahmujono/Pertamina,5,low,58,2024-01-23,2024-01-23,demand forecasting
+openclimatefix/nged-substation-forecast,5,low,103820,2025-12-11,2026-11-23,demand forecasting
+edge-mining/app,5,low,9875,2025-12-10,2026-07-14,demand forecasting
+Nitish-007/PromoMind_Ai,5,low,5541,2026-10-13,2026-10-18,demand forecasting
+kvsp7/MEDS,5,low,125,2026-08-12,2026-08-28,demand forecasting
+ira-throne/grid,5,low,1081,2026-10-02,2026-10-09,demand forecasting
+aryxn778/Foresight-Agent,5,low,31660,2025-07-23,2025-09-05,demand forecasting
+DataWithSoumya/retail-supply-chain-analytics,4,low,2088,2026-07-10,2026-08-07,demand forecasting
+Jagannath-K/agentic-inventory-management,4,low,210,2025-09-05,2025-11-01,demand forecasting
+Monish14-tech/demand-forecasting,4,low,29,2026-05-28,2026-05-28,demand forecasting
+HalenurBulgu/Demand_Forecasting,4,low,4353,2021-03-26,2021-03-26,demand forecasting
+hasancrty/demand-forecasting-production-planning,4,low,386,2026-09-20,2026-09-20,demand forecasting
+CoreyLeath-code/Energy-Demand-Forecasting-DevMLOps,4,low,406,2025-06-08,2026-11-23,demand forecasting
+dwdjitendra-cloud/24-Hour-Electricity-Demand-Forecasting-Bareilly-,4,low,17,2025-10-17,2025-10-17,demand forecasting
+Root2Raj-Zala/root2raj-bike-demand-forecast,4,low,61,2026-10-06,2026-10-08,demand forecasting
+decisionintelligence/ADFormer,4,low,11933,2025-05-18,2025-06-17,demand forecasting
+iamaray/probabilistic_load_forecasting,4,low,2562,2025-01-06,2025-06-17,demand forecasting
+guoshengkang/demand-forcast,4,low,1557,2018-07-18,2018-08-31,demand forecasting
+bruteai/Deploying-Cloud-Based-Demand-Forecasting-with-Transformers-API-Kafka,4,low,24,2025-02-11,2025-03-12,demand forecasting
+brianCHUCHU/ebb,4,low,21661,2025-10-01,2026-10-09,demand forecasting
+Hafeji1992/NHFT-Demand-Capacity-Platform,4,low,4044,2025-12-03,2026-10-17,demand forecasting
+Ankushr785/Food-amenities-demand-prediction,4,low,18,2017-06-23,2017-09-19,demand forecasting
+w7-mgfcode/ForecastLabAI,4,low,5433,2026-01-26,2026-08-12,demand forecasting
+mikeblythe/supply-chain-ops,4,low,10,2026-07-19,2026-07-20,demand forecasting
+Hasaero/EEMD-LASSO-LSTM-Hybrid-Model-for-Time-Series-Forecasting,4,low,446776,2025-03-10,2025-03-10,demand forecasting
+rajpratham1/AidOps,4,low,57,2025-12-15,2025-12-15,demand forecasting
+Nikhil-creat/axionex,4,low,99,2026-09-29,2026-09-29,demand forecasting
+adityagator/time-series-forecasts,4,low,194880,2020-02-22,2022-12-08,demand forecasting
+ketema/beacon-snap-cliff,4,low,65671,2026-11-07,2026-11-08,demand forecasting
+dclabby/gridForecaster,4,low,2018,2021-08-09,2021-08-26,demand forecasting
+PatelVedant-20/UrjaSetu,4,low,7111,2026-09-12,2026-09-15,demand forecasting
+dishadas168/demand-forecasting-ebay,3,low,1375,2023-10-17,2023-11-08,demand forecasting
+Hrishikesh19032004/DemandForecasting,3,low,9,2024-05-04,2024-05-04,demand forecasting
+aws-samples/sample-agentic-retail-dynamic-pricing-demo,3,low,2754,2026-07-10,2026-11-16,demand forecasting
+buseyildirim/demand_forecasting,3,low,4372,2022-02-20,2022-02-20,demand forecasting
+aslihankalyonkat/Demand_Forecasting,3,low,3353,2021-08-05,2021-08-07,demand forecasting
+Energy-Data-Science-Collaboration-Forum/ldz-demand-forecasting,3,low,1520,2023-01-31,2026-05-30,demand forecasting
+juanjosebrauchi/EV_Demand_Forecasting,3,low,1685,2024-01-23,2025-01-28,demand forecasting
+underdoc-wang/ST-MGCN,99,mid,10,2021-05-17,2021-05-17,demand forecasting
+awslabs/sagemaker-deep-demand-forecast,91,mid,15093,2020-03-27,2022-09-14,demand forecasting
+luoda888/CCF2018-Top2-Demand-Forecast,91,mid,5780,2018-12-09,2018-12-09,demand forecasting
+LevinJ/Supply-demand-forecasting,79,mid,2816,2016-05-28,2018-04-19,demand forecasting
+aildnont/water-forecast,63,mid,2234,2020-09-25,2024-10-16,demand forecasting
+Alif1642/retail-demand-forecasting-inventory,63,mid,2728,2026-09-03,2026-09-20,demand forecasting
+fbohu/Deep-Spatio-Temporal-Forecasting-of-Electrical-Vehicle-Charging-Demand,46,mid,14508,2021-06-21,2021-06-21,demand forecasting
+RichardFindlay/day-ahead-probablistic-forecasting-with-quantile-regression,44,mid,752363,2021-09-27,2022-11-20,demand forecasting
+samarthmistry/Retail-Forecasting-Optimal-Pricing,42,mid,240,2019-03-08,2019-09-16,demand forecasting
+databricks-industry-solutions/fine-grained-demand-forecasting,41,mid,119,2022-08-06,2025-07-17,demand forecasting
+finbar-curtin/GRIB-via-inReach,35,mid,28,2023-04-29,2023-04-29,demand forecasting
+LeiBAI/STG2Seq,33,mid,17,2019-12-04,2020-07-27,demand forecasting
+Yu-ChangCheng/manufacturing-forecasting-framework,29,mid,327,2026-10-07,2026-11-20,demand forecasting
+Evens1sen/Deep-NYC-Taxi-Bike,23,mid,295058,2021-11-29,2023-04-15,demand forecasting

@@ -1,0 +1,13 @@
+dataset,builder,flagged_columns,measured_max_reach,rule_reach
+household_power_consumption,causal,0,0,0
+household_power_consumption,centred,2,29,29
+appliances_energy_prediction,causal,0,0,0
+appliances_energy_prediction,centred,2,11,11
+air_quality_uci,causal,0,0,0
+air_quality_uci,centred,2,11,11
+beijing_multisite_air_quality,causal,0,0,0
+beijing_multisite_air_quality,centred,2,11,11
+jena_climate,causal,0,0,0
+jena_climate,centred,2,71,71
+ett_h1,causal,0,0,0
+ett_h1,centred,2,11,11

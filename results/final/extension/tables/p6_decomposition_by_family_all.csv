@@ -1,0 +1,4 @@
+family,total,matched,size
+linear,19.34,18.8,0.64
+neural,25.52,20.45,7.05
+tree_ensemble,39.79,35.9,6.78

@@ -1,0 +1,9 @@
+dataset_id,total,matched,size
+air_quality_uci,21.52,16.75,6.21
+appliances_energy_prediction,23.38,21.83,2.62
+beijing_multisite_air_quality,21.64,17.95,4.57
+beijing_multisite_air_quality@Dongsi,23.51,19.68,4.74
+beijing_multisite_air_quality@Huairou,18.96,14.89,4.88
+ett_h1,40.25,36.88,5.47
+household_power_consumption,32.55,27.25,7.94
+jena_climate,52.15,47.38,10.7
