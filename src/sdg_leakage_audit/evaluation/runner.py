@@ -54,6 +54,7 @@ from sdg_leakage_audit.protocols.splitters import (
     chronological_split_with_gap,
     random_split,
     shuffled_kfold_splits,
+    size_matched_shuffled_splits,
 )
 from sdg_leakage_audit.utils.io import read_json, read_yaml, write_json
 from sdg_leakage_audit.utils.logging import get_logger
@@ -66,7 +67,8 @@ _SCALED_MODEL_NAMES = {"ridge", "mlp"}
 _RECURRENT_MODEL_NAMES = {"lstm", "gru"}
 _TUNABLE_MODEL_NAMES = {"ridge", "random_forest", "lightgbm", "mlp"}
 # P0V = P0 with validation-block tuning (fair baseline for P5); P6B = blocked expanding-window CV (fair baseline for P6).
-_KNOWN_PROTOCOLS = {"P0", "P1", "P2", "P3", "P4", "P5", "P6", "P0V", "P6B"}
+# P6S = size-matched shuffled CV control (same train/test sizes as P6B, random positions).
+_KNOWN_PROTOCOLS = {"P0", "P1", "P2", "P3", "P4", "P5", "P6", "P0V", "P6B", "P6S"}
 
 
 def _load_dataset_frame(dataset_id: str) -> pd.DataFrame:
@@ -76,10 +78,12 @@ def _load_dataset_frame(dataset_id: str) -> pd.DataFrame:
     (the alphabetically first), consistent with the convention already used in
     notebooks 03-04, since the recurrent-sequence framing here assumes one series.
     """
-    df = pd.read_parquet(data_processed_dir() / f"{dataset_id}_features.parquet")
+    # "base@Station" selects a specific station of a multi-station dataset (site replications).
+    base_id, _, station_id = dataset_id.partition("@")
+    df = pd.read_parquet(data_processed_dir() / f"{base_id}_features.parquet")
     if "station" in df.columns:
-        representative_station = sorted(df["station"].unique())[0]
-        df = df.loc[df["station"] == representative_station].drop(columns=["station"])
+        chosen = station_id or sorted(df["station"].unique())[0]
+        df = df.loc[df["station"] == chosen].drop(columns=["station"])
     return df
 
 
@@ -257,7 +261,7 @@ def run_single_cell(
         ValueError: If `protocol_id` is not one of "P0".."P6".
     """
     datasets_cfg = read_yaml(configs_dir() / "datasets.yaml")["datasets"]
-    dataset_cfg = datasets_cfg[dataset_id]
+    dataset_cfg = datasets_cfg[dataset_id.partition("@")[0]]
     target_column = dataset_cfg["target_column"]
     season_length = dataset_cfg["season_length"]
 
@@ -353,10 +357,10 @@ def run_single_cell_on_frame(
         "seed": seed,
     }
 
-    if protocol_id in ("P6", "P6B"):
+    if protocol_id in ("P6", "P6B", "P6S"):
         return _run_p6_cv_cell(
             X_full, y_full, origin_full, df, target_column, season_length, horizon, model_name, models_cfg, config, metadata,
-            blocked=(protocol_id == "P6B"),
+            blocked=(protocol_id == "P6B"), size_matched=(protocol_id == "P6S"),
         )
     if protocol_id in ("P5", "P0V"):
         return _run_p5_cell(
@@ -519,8 +523,9 @@ def _run_p6_cv_cell(
     metadata: dict[str, Any],
     n_folds: int = 5,
     blocked: bool = False,
+    size_matched: bool = False,
 ) -> dict[str, Any]:
-    """P6 / P6B: metrics averaged over CV folds (the CV-estimate audit).
+    """P6 / P6B / P6S: metrics averaged over CV folds (the CV-estimate audit).
 
     P6 uses shuffled K-fold (leaky); P6B uses expanding-window blocked CV with a
     purge gap = horizon (corrected). P6 is compared against P6B (same averaging).
@@ -531,6 +536,8 @@ def _run_p6_cv_cell(
     """
     if blocked:
         folds = blocked_cv_splits(X_full, n_folds=n_folds, horizon=horizon, expanding=True)
+    elif size_matched:
+        folds = size_matched_shuffled_splits(X_full, n_folds=n_folds, horizon=horizon, seed=metadata["seed"])
     else:
         folds = shuffled_kfold_splits(X_full, n_folds=n_folds, seed=metadata["seed"])
     per_fold_metrics: list[dict[str, float]] = []

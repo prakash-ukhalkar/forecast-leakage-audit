@@ -22,7 +22,7 @@ _ALL_METRICS = _LOWER_IS_BETTER_METRICS + _HIGHER_IS_BETTER_METRICS
 
 # Fair per-protocol baselines: P5 is measured against validation-tuned P0V, P6 against blocked CV P6B.
 # Falls back to `baseline_protocol` when the mapped baseline is absent from the data.
-DEFAULT_BASELINE_MAP = {"P5": "P0V", "P6": "P6B"}
+DEFAULT_BASELINE_MAP = {"P5": "P0V", "P6": "P6B", "P6S": "P6B"}
 
 
 def compute_inflation(

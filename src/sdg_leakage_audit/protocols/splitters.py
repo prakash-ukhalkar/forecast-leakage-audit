@@ -251,3 +251,39 @@ def shuffled_kfold_splits(
 
     logger.debug("shuffled_kfold_splits (P6): n=%d n_folds=%d seed=%d", n, n_folds, seed)
     return folds
+
+
+def size_matched_shuffled_splits(
+    index_or_df,
+    n_folds: int,
+    horizon: int,
+    seed: int = 0,
+) -> list[tuple[np.ndarray, np.ndarray]]:
+    """P6S (control): shuffled folds whose train/test SIZES match the blocked expanding-window CV.
+
+    For every fold of `blocked_cv_splits(..., expanding=True)` this draws a random test set
+    of the same size and a random train set (disjoint from it) of the same size as the blocked
+    fold's train set, ignoring time order. P6S therefore keeps the amount of training data and
+    the test-block size identical to the corrected P6B, and changes only WHICH rows are used
+    (random positions instead of past/future blocks). Comparing P6 with P6S isolates the
+    effect of training-set size; comparing P6S with P6B isolates the effect of interleaving
+    (leakage) at equal sizes.
+
+    Returns:
+        List of `(train_idx, test_idx)` tuples, one per blocked fold, each sorted and disjoint.
+    """
+    n = _resolve_n(index_or_df)
+    blocked = blocked_cv_splits(n, n_folds=n_folds, horizon=horizon, expanding=True)
+    rng = default_rng(seed)
+    folds: list[tuple[np.ndarray, np.ndarray]] = []
+    for train_b, test_b in blocked:
+        n_te, n_tr = len(test_b), len(train_b)
+        if n_te + n_tr > n:
+            n_tr = n - n_te
+        perm = rng.permutation(n)
+        test_idx = np.sort(perm[:n_te])
+        train_idx = np.sort(perm[n_te : n_te + n_tr])
+        assert len(np.intersect1d(train_idx, test_idx)) == 0
+        folds.append((train_idx, test_idx))
+    logger.debug("size_matched_shuffled_splits (P6S): n=%d n_folds=%d seed=%d", n, n_folds, seed)
+    return folds
