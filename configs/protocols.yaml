@@ -108,3 +108,13 @@ protocols:
     params:
       cv_scheme: "expanding_window_cv"
       n_folds: 5
+
+  P6S:
+    name: "Size-matched shuffled CV"
+    description: >
+      Control for P6: shuffled folds whose train and test sizes equal those of the blocked
+      expanding-window folds (P6B). Differs from P6B only in using random rather than
+      chronological positions; compared against P6B to separate leakage from training-set size.
+    params:
+      cv_scheme: "size_matched_shuffled_cv"
+      n_folds: 5

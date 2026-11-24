@@ -102,6 +102,22 @@ datasets:
       station, Jena, Germany, at 10-minute intervals (2009-2016). Used for SDG 13 (climate
       action) climate/weather forecasting.
 
+  ett_h1:
+    uci_id: null
+    name: "Electricity Transformer Temperature (ETTh1)"
+    sdg_tag: "SDG7"
+    source:
+      direct_zip_url: "https://raw.githubusercontent.com/zhouhaoyi/ETDataset/main/ETT-small/ETTh1.csv"
+    target_column: "OT"
+    timestamp_column: "date"
+    frequency: "1h"
+    forecast_horizons: [1, 6, 24]
+    season_length: 24
+    licence: "Public research dataset (ETDataset, CC BY-ND 4.0 per repository)."
+    description: >
+      Hourly oil temperature of an electricity transformer with six load covariates
+      (2016-2018). Extension dataset for the energy domain (SDG 7).
+
   # open_power_system_data:
   #   TODO (Phase 2+, currently SKIPPED per project decision): Open Power System Data
   #   (https://open-power-system-data.org/) would add renewable generation / load /
